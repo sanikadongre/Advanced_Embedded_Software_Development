@@ -1,17 +1,19 @@
+
 CC=gcc
 
-CFLAGS= -O0 -g
- 
+CFLAGS= -O0 -g 
+
 CFILES= hwq2.c
 
 SRCS= ${CFILES}
 OBJS= ${CFILES:.c=.o}
 
-build:	hwq2.elf
+build:	hwq2
 
 clean:
 	-rm -f *.o *.d
-	-rm -f hwq2.elf
+	-rm -f hwq2
 
-hwq2.elf:	hwq2.o
-	$(CC) $(LDFLAGS) $(CFLAGS) -o $@ $@.o -lm
+hwq2:	hwq2.o
+	$(CC)	$(LDFLAGS)	$(CFLAGS)	-o	$@	$@.o
+

@@ -188,6 +188,7 @@ int main(int argc, char* argv[])
     {
         printf("\nEnter a string\n");
         scanf("%s", string_in);
+	
     }
     if(argc>1)
     {

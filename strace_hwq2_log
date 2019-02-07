@@ -1,0 +1,122 @@
+     0.000000 execve("./hwq2", ["./hwq2"], 0x7ffd13fd1030 /* 53 vars */) = 0 <0.000179>
+     0.000339 brk(NULL)                 = 0x55dd16f0f000 <0.000005>
+     0.000199 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000011>
+     0.000193 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory) <0.000007>
+     0.000025 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+     0.000025 fstat(3, {st_mode=S_IFREG|0644, st_size=76393, ...}) = 0 <0.000005>
+     0.000023 mmap(NULL, 76393, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4418df0000 <0.000007>
+     0.000021 close(3)                  = 0 <0.000005>
+     0.000022 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000006>
+     0.000026 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+     0.000023 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832 <0.000005>
+     0.000023 fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0 <0.000005>
+     0.000020 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4418dee000 <0.000006>
+     0.000024 mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f44187eb000 <0.000008>
+     0.000021 mprotect(0x7f44189d2000, 2097152, PROT_NONE) = 0 <0.000012>
+     0.000026 mmap(0x7f4418bd2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f4418bd2000 <0.000011>
+     0.000028 mmap(0x7f4418bd8000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4418bd8000 <0.000007>
+     0.000028 close(3)                  = 0 <0.000004>
+     0.000031 arch_prctl(ARCH_SET_FS, 0x7f4418def500) = 0 <0.000004>
+     0.000826 mprotect(0x7f4418bd2000, 16384, PROT_READ) = 0 <0.000014>
+     0.000047 mprotect(0x55dd168ef000, 4096, PROT_READ) = 0 <0.000008>
+     0.000024 mprotect(0x7f4418e03000, 4096, PROT_READ) = 0 <0.000008>
+     0.000023 munmap(0x7f4418df0000, 76393) = 0 <0.000018>
+     0.000677 brk(NULL)                 = 0x55dd16f0f000 <0.000006>
+     0.000023 brk(0x55dd16f30000)       = 0x55dd16f30000 <0.000007>
+     0.000030 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0 <0.000006>
+     0.000028 write(1, "\n", 1)         = 1 <0.000059>
+     0.000083 write(1, "Enter a string\n", 15) = 15 <0.000048>
+     0.000075 fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0 <0.000005>
+     0.000024 read(0, "sanika\n", 1024) = 7 <2.626239>
+     2.626300 write(1, "\n", 1)         = 1 <0.000008>
+     0.000029 write(1, "The interesting string is sanika"..., 33) = 33 <0.000006>
+     0.000023 openat(AT_FDCWD, "sanika.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3 <0.000044>
+     0.000066 write(1, "sanika.txt\nfile has been created"..., 33) = 33 <0.000006>
+     0.000022 fstat(3, {st_mode=S_IFREG|0266, st_size=0, ...}) = 0 <0.000006>
+     0.000029 write(3, "sanika", 6)     = 6 <0.000014>
+     0.000028 close(3)                  = 0 <0.000163>
+     0.000184 openat(AT_FDCWD, "sanika.txt", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000009>
+     0.000028 lseek(3, 0, SEEK_END)     = 6 <0.000005>
+     0.001042 fstat(3, {st_mode=S_IFREG|0266, st_size=6, ...}) = 0 <0.000005>
+     0.000028 write(3, " adding output", 14) = 14 <0.000009>
+     0.000025 close(3)                  = 0 <0.000007>
+     0.000021 write(1, "\n", 1)         = 1 <0.000012>
+     0.000029 write(1, "Enter the operation to be perfor"..., 118) = 118 <0.000476>
+     0.000504 read(0, "2\n", 1024)      = 2 <2.287618>
+     2.287680 openat(AT_FDCWD, "sanika.txt", O_WRONLY|O_CREAT|O_APPEND, 0666) = 3 <0.000014>
+     0.000039 lseek(3, 0, SEEK_END)     = 20 <0.000005>
+     0.000020 fstat(3, {st_mode=S_IFREG|0266, st_size=20, ...}) = 0 <0.000006>
+     0.000025 write(3, " HI I am sanika", 15) = 15 <0.000010>
+     0.000026 write(1, "File output flush complete\n", 27) = 27 <0.000008>
+     0.000023 write(1, "\n", 1)         = 1 <0.000006>
+     0.000020 write(1, "Enter a string\n", 15) = 15 <0.000006>
+     0.000020 read(0, "Sanikaa\n", 1024) = 8 <4.890148>
+     4.890214 write(1, "\n", 1)         = 1 <0.000008>
+     0.000029 write(1, "The interesting string is Sanika"..., 34) = 34 <0.000006>
+     0.000028 openat(AT_FDCWD, "sanika.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4 <0.000043>
+     0.000066 write(1, "sanika.txt\nfile has been created"..., 33) = 33 <0.000006>
+     0.000022 fstat(4, {st_mode=S_IFREG|0266, st_size=0, ...}) = 0 <0.000006>
+     0.000028 write(4, "Sanikaa", 7)    = 7 <0.000010>
+     0.000026 close(4)                  = 0 <0.000160>
+     0.000181 openat(AT_FDCWD, "sanika.txt", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4 <0.000008>
+     0.000027 lseek(4, 0, SEEK_END)     = 7 <0.000011>
+     0.001165 fstat(4, {st_mode=S_IFREG|0266, st_size=7, ...}) = 0 <0.000006>
+     0.000027 write(4, " adding output", 14) = 14 <0.000008>
+     0.000025 close(4)                  = 0 <0.000006>
+     0.000020 write(1, "\n", 1)         = 1 <0.000012>
+     0.000030 write(1, "Enter the operation to be perfor"..., 118) = 118 <0.000445>
+     0.000473 read(0, "4\n", 1024)      = 2 <3.520018>
+     3.520077 openat(AT_FDCWD, "sanika.txt", O_RDONLY) = -1 EACCES (Permission denied) <0.000013>
+     0.000042 write(1, "file can't be opened/read sanika"..., 37) = 37 <0.000008>
+     0.000025 write(1, "Enter a string\n", 15) = 15 <0.000005>
+     0.000021 read(0, "Sanika\n", 1024) = 7 <7.044236>
+     7.044293 write(1, "\n", 1)         = 1 <0.000008>
+     0.000028 write(1, "The interesting string is Sanika"..., 33) = 33 <0.000006>
+     0.000353 openat(AT_FDCWD, "sanika.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4 <0.000042>
+     0.000070 write(1, "sanika.txt\nfile has been created"..., 33) = 33 <0.000006>
+     0.000023 fstat(4, {st_mode=S_IFREG|0266, st_size=0, ...}) = 0 <0.000006>
+     0.000024 write(4, "Sanika", 6)     = 6 <0.000013>
+     0.000029 close(4)                  = 0 <0.000156>
+     0.000178 openat(AT_FDCWD, "sanika.txt", O_WRONLY|O_CREAT|O_APPEND, 0666) = 4 <0.000009>
+     0.000027 lseek(4, 0, SEEK_END)     = 6 <0.001187>
+     0.001241 fstat(4, {st_mode=S_IFREG|0266, st_size=6, ...}) = 0 <0.000007>
+     0.000036 write(4, " adding output", 14) = 14 <0.000013>
+     0.000183 close(4)                  = 0 <0.000012>
+     0.000035 write(1, "\n", 1)         = 1 <0.000038>
+     0.000061 write(1, "Enter the operation to be perfor"..., 118) = 118 <0.000045>
+     0.000068 read(0, "1\n", 1024)      = 2 <1.618454>
+     1.618508 stat("sanika.txt", {st_mode=S_IFREG|0266, st_size=20, ...}) = 0 <0.000011>
+     0.000038 write(1, "-w-rw-rw- is the file permission"..., 33) = 33 <0.000479>
+     0.000505 write(1, "\n", 1)         = 1 <0.000006>
+     0.000024 write(1, "To change the file permission ou"..., 106) = 106 <0.000006>
+     0.000022 read(0, "3\n", 1024)      = 2 <74.058024>
+    74.058230 write(1, "To change the file permission fo"..., 110) = 110 <0.000009>
+     0.000031 read(0, "1\n", 1024)      = 2 <3.202679>
+     3.202731 write(1, "\n", 1)         = 1 <0.000008>
+     0.000025 write(1, "To change the permission for oth"..., 36) = 36 <0.000005>
+     0.000020 read(0, "1\n", 1024)      = 2 <1.035626>
+     1.035678 chmod("sanika.txt", 0644) = 0 <0.000015>
+     0.000040 stat("sanika.txt", {st_mode=S_IFREG|0644, st_size=20, ...}) = 0 <0.000007>
+     0.000029 write(1, "\n", 1)         = 1 <0.000007>
+     0.000164 write(1, "After changing the permission is"..., 47) = 47 <0.000008>
+     0.000034 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x55dd14000000} ---
+     0.339473 +++ killed by SIGSEGV (core dumped) +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 53.78    0.000690         173         4           lseek
+ 40.76    0.000523          14        37           write
+  2.96    0.000038           4        10           read
+  0.94    0.000012           6         2           stat
+  0.94    0.000012          12         1           chmod
+  0.39    0.000005           1         8           close
+  0.23    0.000003           0        11           fstat
+  0.00    0.000000           0         5           mmap
+  0.00    0.000000           0         4           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         3         3 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         1           arch_prctl
+  0.00    0.000000           0        10         1 openat
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.001283                   101         4 total

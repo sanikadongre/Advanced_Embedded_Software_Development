@@ -135,6 +135,8 @@ int main(int argc, char* argv[])
     FILE *fptr = fopen(file_name,"r");
     uint8_t char_read;
     char* string_in = (char*)malloc((string_size));
+    while(1)
+    {
     if(argc==1)
     {
         printf("\nEnter a string\n");
@@ -170,6 +172,7 @@ int main(int argc, char* argv[])
 	 default: printf("\nInvalid request\n");
 	          break;
     }
+   }
    free(string_in);
 
 }

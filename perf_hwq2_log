@@ -1,16 +1,16 @@
-# started on Thu Feb  7 00:30:01 2019
+# started on Sat Feb  9 00:00:16 2019
 
 
  Performance counter stats for './hwq2':
 
-          2.985306      task-clock (msec)         #    0.000 CPUs utilized          
-                10      context-switches          #    0.003 M/sec                  
+          1.785377      task-clock (msec)         #    0.000 CPUs utilized          
+                 8      context-switches          #    0.004 M/sec                  
                  0      cpu-migrations            #    0.000 K/sec                  
-                54      page-faults               #    0.018 M/sec                  
+                53      page-faults               #    0.030 M/sec                  
    <not supported>      cycles                                                      
    <not supported>      instructions                                                
    <not supported>      branches                                                    
    <not supported>      branch-misses                                               
 
-      38.676928690 seconds time elapsed
+      67.977703912 seconds time elapsed
 

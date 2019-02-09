@@ -140,7 +140,7 @@ int main(int argc, char* argv[])
     {
         printf("\nEnter a string\n");
         scanf("%s", string_in);
-	
+	*(string_in+strlen(string_in)) = 32;
     }
     if(argc>1)
     {

@@ -1,16 +1,16 @@
-# started on Sat Feb  9 00:00:16 2019
+# started on Sat Feb  9 12:21:48 2019
 
 
- Performance counter stats for './hwq2':
+ Performance counter stats for './hwq2 sanika is fun':
 
-          1.785377      task-clock (msec)         #    0.000 CPUs utilized          
-                 8      context-switches          #    0.004 M/sec                  
+          3.089502      task-clock (msec)         #    0.000 CPUs utilized          
+                26      context-switches          #    0.008 M/sec                  
                  0      cpu-migrations            #    0.000 K/sec                  
-                53      page-faults               #    0.030 M/sec                  
+                54      page-faults               #    0.017 M/sec                  
    <not supported>      cycles                                                      
    <not supported>      instructions                                                
    <not supported>      branches                                                    
    <not supported>      branch-misses                                               
 
-      67.977703912 seconds time elapsed
+      26.444646459 seconds time elapsed
 

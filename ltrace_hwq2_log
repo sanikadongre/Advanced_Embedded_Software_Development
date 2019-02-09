@@ -1,318 +1,218 @@
-  0.000000 SYS_brk(0)                                                                                                         = 0x562bf6d9b000 <0.000035>
-  0.000255 SYS_access("/etc/ld.so.nohwcap", 00)                                                                               = -2 <0.000074>
-  0.000098 SYS_access("/etc/ld.so.preload", 04)                                                                               = -2 <0.000060>
-  0.000080 SYS_openat(0xffffff9c, 0x7f3fa7b5d428, 0x80000, 0)                                                                 = 3 <0.000201>
-  0.003042 SYS_fstat(3, 0x7fff33c07a50)                                                                                       = 0 <0.000022>
-  0.000042 SYS_mmap(0, 0x12a69, 1, 2)                                                                                         = 0x7f3fa7d50000 <0.000042>
-  0.000067 SYS_close(3)                                                                                                       = 0 <0.000013>
-  0.000036 SYS_access("/etc/ld.so.nohwcap", 00)                                                                               = -2 <0.000060>
-  0.000604 SYS_openat(0xffffff9c, 0x7f3fa7d65dd0, 0x80000, 0)                                                                 = 3 <0.000044>
-  0.000073 SYS_read(3, "\177ELF\002\001\001\003", 832)                                                                        = 832 <0.000026>
-  0.000598 SYS_fstat(3, 0x7fff33c07ab0)                                                                                       = 0 <0.000019>
-  0.000043 SYS_mmap(0, 8192, 3, 34)                                                                                           = 0x7f3fa7d4e000 <0.000042>
-  0.000204 SYS_mmap(0, 0x3f0ae0, 5, 2050)                                                                                     = 0x7f3fa774b000 <0.000293>
-  0.000545 SYS_mprotect(0x7f3fa7932000, 2097152, 0)                                                                           = 0 <0.000036>
-  0.000052 SYS_mmap(0x7f3fa7b32000, 0x6000, 3, 2066)                                                                          = 0x7f3fa7b32000 <0.000040>
-  0.000069 SYS_mmap(0x7f3fa7b38000, 0x3ae0, 3, 50)                                                                            = 0x7f3fa7b38000 <0.000022>
-  0.000048 SYS_close(3)                                                                                                       = 0 <0.000010>
-  0.000043 SYS_arch_prctl(4098, 0x7f3fa7d4f500, 0x7f3fa7d4fe30, 0x7f3fa7d4e9b8)                                               = 0 <0.000021>
-  0.000120 SYS_mprotect(0x7f3fa7b32000, 16384, 1)                                                                             = 0 <0.000017>
-  0.000037 SYS_mprotect(0x562bf4ff8000, 4096, 1)                                                                              = 0 <0.000014>
-  0.000027 SYS_mprotect(0x7f3fa7d63000, 4096, 1)                                                                              = 0 <0.000018>
-  0.000030 SYS_munmap(0x7f3fa7d50000, 76393)                                                                                  = 0 <0.000025>
-  0.004280 malloc(200 <unfinished ...>
-  0.000184     SYS_brk(0)                                                                                                     = 0x562bf6d9b000 <0.000029>
-  0.000029     SYS_brk(0x562bf6dbc000)                                                                                        = 0x562bf6dbc000 <0.000011>
-  0.000032 <... malloc resumed> )                                                                                             = 0x562bf6d9b260 <0.000239>
-  0.000019 malloc(200)                                                                                                        = 0x562bf6d9b330 <0.000267>
-  0.000303 puts("\nEnter a string" <unfinished ...>
-  0.002944     SYS_fstat(1, 0x7fff33c08270)                                                                                   = 0 <0.000044>
-  0.000422     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000083>
-  0.000111     SYS_write(1, "Enter a string\n", 15)                                                                           = 15 <0.000077>
-  0.000115 <... puts resumed> )                                                                                               = 16 <0.003574>
-  0.000022 __isoc99_scanf(0x562bf4df8667, 0x562bf6d9b330, 0x7f3fa7b388c0, 0x7f3fa785b154 <unfinished ...>
-  0.000137     SYS_fstat(0, 0x7fff33c07af0)                                                                                   = 0 <0.000017>
-  0.000026     SYS_read(0, "Sanika\n", 1024)                                                                                  = 7 <2.797361>
-  2.797640 <... __isoc99_scanf resumed> )                                                                                     = 1 <2.797777>
-  0.000032 printf("\nThe interesting string is %s\n", "Sanika" <unfinished ...>
-  0.000263     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000035>
-  0.000048     SYS_write(1, "The interesting string is Sanika"..., 33)                                                        = 33 <0.000080>
-  0.000103 <... printf resumed> )                                                                                             = 34 <0.000407>
-  0.000024 fopen("sanika.txt", "w" <unfinished ...>
-  0.000137     SYS_openat(0xffffff9c, 0x562bf4df864c, 577, 438)                                                               = 3 <0.000073>
-  0.000099 <... fopen resumed> )                                                                                              = 0x562bf6d9bc20 <0.000230>
-  0.000196 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
-  0.000236     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.000270>
-  0.000297 <... printf resumed> )                                                                                             = 33 <0.000525>
-  0.000025 strlen("Sanika")                                                                                                   = 6 <0.000143>
-  0.000176 fwrite("Sanika", 1, 6, 0x562bf6d9bc20 <unfinished ...>
-  0.000317     SYS_fstat(3, 0x7fff33c08230)                                                                                   = 0 <0.000029>
-  0.000045 <... fwrite resumed> )                                                                                             = 6 <0.000355>
-  0.000023 fclose(0x562bf6d9bc20 <unfinished ...>
-  0.000108     SYS_write(3, "Sanika", 6)                                                                                      = 6 <0.000054>
-  0.000071     SYS_close(3)                                                                                                   = 0 <0.000178>
-  0.000216 <... fclose resumed> )                                                                                             = 0 <0.000387>
-  0.000640 fopen("sanika.txt", "a" <unfinished ...>
-  0.000170     SYS_openat(0xffffff9c, 0x562bf4df864c, 1089, 438)                                                              = 3 <0.000046>
-  0.000064     SYS_lseek(3, 0, 2)                                                                                             = 6 <0.000013>
-  0.000031 <... fopen resumed> )                                                                                              = 0x562bf6d9bc20 <0.000260>
-  0.000023 strlen(" adding output")                                                                                           = 14 <0.000127>
-  0.000158 fwrite(" adding output", 1, 14, 0x562bf6d9bc20 <unfinished ...>
-  0.000139     SYS_fstat(3, 0x7fff33c08230)                                                                                   = 0 <0.000469>
-  0.000496 <... fwrite resumed> )                                                                                             = 14 <0.000627>
-  0.000025 fclose(0x562bf6d9bc20 <unfinished ...>
-  0.000132     SYS_write(3, " adding output", 14)                                                                             = 14 <0.000076>
-  0.000085     SYS_close(3)                                                                                                   = 0 <0.000018>
-  0.000047 <... fclose resumed> )                                                                                             = 0 <0.000257>
-  0.000024 puts("\nEnter the operation to be perfo"... <unfinished ...>
-  0.000405     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000083>
-  0.000097     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.000167>
-  0.000190 <... puts resumed> )                                                                                               = 119 <0.000688>
-  0.000021 __isoc99_scanf(0x562bf4df84f3, 0x7fff33c08400, 0x7f3fa7b388c0, 0x7f3fa785b154 <unfinished ...>
-  0.000103     SYS_read(0, "2\n", 1024)                                                                                       = 2 <5.491226>
-  5.491330 <... __isoc99_scanf resumed> )                                                                                     = 1 <5.491408>
-  0.000033 fopen("sanika.txt", "a" <unfinished ...>
-  0.000385     SYS_openat(0xffffff9c, 0x562bf4df864c, 1089, 438)                                                              = 3 <0.000049>
-  0.000067     SYS_lseek(3, 0, 2)                                                                                             = 20 <0.000014>
-  0.000033 <... fopen resumed> )                                                                                              = 0x562bf6d9bc20 <0.000479>
-  0.000023 fwrite(" HI I am sanika", 1, 15, 0x562bf6d9bc20 <unfinished ...>
-  0.000146     SYS_fstat(3, 0x7fff33c08230)                                                                                   = 0 <0.000998>
-  0.001211 <... fwrite resumed> )                                                                                             = 15 <0.001342>
-  0.000234 fflush(0x562bf6d9bc20 <unfinished ...>
-  0.000288     SYS_write(3, " HI I am sanika", 15)                                                                            = 15 <0.000146>
-  0.000154 <... fflush resumed> )                                                                                             = 0 <0.000426>
-  0.000034 puts("File output flush complete" <unfinished ...>
-  0.000198     SYS_write(1, "File output flush complete\n", 27)                                                               = 27 <0.000148>
-  0.000172 <... puts resumed> )                                                                                               = 27 <0.000362>
-  0.000313 free(0x562bf6d9b330)                                                                                               = <void> <0.000120>
-  0.000152 free(0x562bf6d9b260)                                                                                               = <void> <0.000097>
-  0.000127 puts("\nEnter a string" <unfinished ...>
-  0.000138     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000063>
-  0.000079     SYS_write(1, "Enter a string\n", 15)                                                                           = 15 <0.003283>
-  0.003349 <... puts resumed> )                                                                                               = 16 <0.003550>
-  0.000032 __isoc99_scanf(0x562bf4df8667, 0x562bf6d9b330, 0x7f3fa7b388c0, 0x7f3fa785b154 <unfinished ...>
-  0.000163     SYS_read(0, "YAAY\n", 1024)                                                                                    = 5 <3.940781>
-  3.940883 <... __isoc99_scanf resumed> )                                                                                     = 1 <3.941021>
-  0.000033 printf("\nThe interesting string is %s\n", "YAAY" <unfinished ...>
-  0.000258     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000034>
-  0.000055     SYS_write(1, "The interesting string is YAAY\n", 31)                                                           = 31 <0.000078>
-  0.000399 <... printf resumed> )                                                                                             = 32 <0.000702>
-  0.000036 fopen("sanika.txt", "w" <unfinished ...>
-  0.000172     SYS_openat(0xffffff9c, 0x562bf4df864c, 577, 438)                                                               = 4 <0.000072>
-  0.000098 <... fopen resumed> )                                                                                              = 0x562bf6d9ce60 <0.000264>
-  0.000063 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
-  0.000475     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.000194>
-  0.000201 <... printf resumed> )                                                                                             = 33 <0.000668>
-  0.000025 strlen("YAAY")                                                                                                     = 4 <0.000128>
-  0.000160 fwrite("YAAY", 1, 4, 0x562bf6d9ce60 <unfinished ...>
-  0.000964     SYS_fstat(4, 0x7fff33c08230)                                                                                   = 0 <0.000048>
-  0.000076 <... fwrite resumed> )                                                                                             = 4 <0.001021>
-  0.000026 fclose(0x562bf6d9ce60 <unfinished ...>
-  0.000113     SYS_write(4, "YAAY", 4)                                                                                        = 4 <0.000470>
-  0.000498     SYS_close(4)                                                                                                   = 0 <0.000184>
-  0.000227 <... fclose resumed> )                                                                                             = 0 <0.000825>
-  0.000745 fopen("sanika.txt", "a" <unfinished ...>
-  0.000164     SYS_openat(0xffffff9c, 0x562bf4df864c, 1089, 438)                                                              = 4 <0.000045>
-  0.000064     SYS_lseek(4, 0, 2)                                                                                             = 4 <0.000013>
-  0.000032 <... fopen resumed> )                                                                                              = 0x562bf6d9ce60 <0.000255>
-  0.000023 strlen(" adding output")                                                                                           = 14 <0.000128>
-  0.000159 fwrite(" adding output", 1, 14, 0x562bf6d9ce60 <unfinished ...>
-  0.000139     SYS_fstat(4, 0x7fff33c08230)                                                                                   = 0 <0.000021>
-  0.000038 <... fwrite resumed> )                                                                                             = 14 <0.000169>
-  0.000022 fclose(0x562bf6d9ce60 <unfinished ...>
-  0.000257     SYS_write(4, " adding output", 14)                                                                             = 14 <0.000066>
-  0.000082     SYS_close(4)                                                                                                   = 0 <0.000019>
-  0.000045 <... fclose resumed> )                                                                                             = 0 <0.000376>
-  0.000023 puts("\nEnter the operation to be perfo"... <unfinished ...>
-  0.000242     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000081>
-  0.000099     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.000196>
-  0.000224 <... puts resumed> )                                                                                               = 119 <0.000559>
-  0.000024 __isoc99_scanf(0x562bf4df84f3, 0x7fff33c08400, 0x7f3fa7b388c0, 0x7f3fa785b154 <unfinished ...>
-  0.000414     SYS_read(0, "3\n", 1024)                                                                                       = 2 <2.341052>
-  2.341424 <... __isoc99_scanf resumed> )                                                                                     = 1 <2.341526>
-  0.000044 malloc(200)                                                                                                        = 0x562bf6d9b260 <0.000148>
-  0.000183 fopen("sanika.txt", "r" <unfinished ...>
-  0.000150     SYS_openat(0xffffff9c, 0x562bf4df864c, 0, 0)                                                                   = 4 <0.000189>
-  0.000218 <... fopen resumed> )                                                                                              = 0x562bf6d9ce60 <0.000362>
-  0.000153 fseek(0x562bf6d9ce60, 0, 2, 0 <unfinished ...>
-  0.000173     SYS_fstat(4, 0x7fff33c081c0)                                                                                   = 0 <0.000060>
-  0.000056     SYS_fstat(4, 0x7fff33c082b0)                                                                                   = 0 <0.000014>
-  0.000033     SYS_lseek(4, 0, 0)                                                                                             = 0 <0.000013>
-  0.000026     SYS_read(4, "YAAY adding output", 18)                                                                          = 18 <0.000018>
-  0.000085 <... fseek resumed> )                                                                                              = 0 <0.000364>
-  0.000024 ftell(0x562bf6d9ce60, 0x562bf6d9cf40, 0, 18)                                                                       = 18 <0.000109>
-  0.000145 fseek(0x562bf6d9ce60, 0, 0, 0 <unfinished ...>
-  0.000114     SYS_lseek(4, 18, 0)                                                                                            = 18 <0.000021>
-  0.000038 <... fseek resumed> )                                                                                              = 0 <0.000143>
-  0.000023 fgetc(0x562bf6d9ce60)                                                                                              = 'Y' <0.000098>
-  0.000131 fgetc(0x562bf6d9ce60)                                                                                              = 'A' <0.000097>
-  0.000129 fgetc(0x562bf6d9ce60)                                                                                              = 'A' <0.000096>
-  0.000128 fgetc(0x562bf6d9ce60)                                                                                              = 'Y' <0.000097>
-  0.000129 fgetc(0x562bf6d9ce60)                                                                                              = ' ' <0.000096>
-  0.000127 fgetc(0x562bf6d9ce60)                                                                                              = 'a' <0.000096>
-  0.000128 fgetc(0x562bf6d9ce60)                                                                                              = 'd' <0.000096>
-  0.000446 fgetc(0x562bf6d9ce60)                                                                                              = 'd' <0.000118>
-  0.000151 fgetc(0x562bf6d9ce60)                                                                                              = 'i' <0.000098>
-  0.000130 fgetc(0x562bf6d9ce60)                                                                                              = 'n' <0.000097>
-  0.000129 fgetc(0x562bf6d9ce60)                                                                                              = 'g' <0.000097>
-  0.000127 fgetc(0x562bf6d9ce60)                                                                                              = ' ' <0.000245>
-  0.000281 fgetc(0x562bf6d9ce60)                                                                                              = 'o' <0.001160>
-  0.001229 fgetc(0x562bf6d9ce60)                                                                                              = 'u' <0.000167>
-  0.000224 fgetc(0x562bf6d9ce60)                                                                                              = 't' <0.000106>
-  0.000150 fgetc(0x562bf6d9ce60)                                                                                              = 'p' <0.000098>
-  0.000130 fgetc(0x562bf6d9ce60)                                                                                              = 'u' <0.000294>
-  0.000331 fgetc(0x562bf6d9ce60)                                                                                              = 't' <0.000102>
-  0.000134 fgetc(0x562bf6d9ce60 <unfinished ...>
-  0.000105     SYS_read(4, "", 4096)                                                                                          = 0 <0.000023>
-  0.000049 <... fgetc resumed> )                                                                                              = '\377' <0.000147>
-  0.000023 free(0x562bf6d9b330)                                                                                               = <void> <0.000098>
-  0.000128 free(0x562bf6d9b260)                                                                                               = <void> <0.000096>
-  0.000126 puts("\nEnter a string" <unfinished ...>
-  0.000449     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000090>
-  0.000107     SYS_write(1, "Enter a string\n", 15)                                                                           = 15 <0.000094>
-  0.000122 <... puts resumed> )                                                                                               = 16 <0.000671>
-  0.000024 __isoc99_scanf(0x562bf4df8667, 0x562bf6d9b330, 0x7f3fa7b388c0, 0x7f3fa785b154 <unfinished ...>
-  0.000123     SYS_read(0, "Hello world\n", 1024)                                                                             = 12 <18.220956>
- 18.221073 <... __isoc99_scanf resumed> )                                                                                     = 1 <18.221170>
-  0.000032 printf("\nThe interesting string is %s\n", "Hello" <unfinished ...>
-  0.000406     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000037>
-  0.000049     SYS_write(1, "The interesting string is Hello\n"..., 32)                                                       = 32 <0.000080>
-  0.000104 <... printf resumed> )                                                                                             = 33 <0.000550>
-  0.000024 fopen("sanika.txt", "w" <unfinished ...>
-  0.000155     SYS_openat(0xffffff9c, 0x562bf4df864c, 577, 438)                                                               = 5 <0.000071>
-  0.000226 <... fopen resumed> )                                                                                              = 0x562bf6d9e0a0 <0.000373>
-  0.000034 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
-  0.000535     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.000178>
-  0.000195 <... printf resumed> )                                                                                             = 33 <0.000723>
-  0.000026 strlen("Hello")                                                                                                    = 5 <0.000116>
-  0.000149 fwrite("Hello", 1, 5, 0x562bf6d9e0a0 <unfinished ...>
-  0.000125     SYS_fstat(5, 0x7fff33c08230)                                                                                   = 0 <0.000023>
-  0.000045 <... fwrite resumed> )                                                                                             = 5 <0.000163>
-  0.000024 fclose(0x562bf6d9e0a0 <unfinished ...>
-  0.000467     SYS_write(5, "Hello", 5)                                                                                       = 5 <0.000059>
-  0.000074     SYS_close(5)                                                                                                   = 0 <0.000173>
-  0.000211 <... fclose resumed> )                                                                                             = 0 <0.000744>
-  0.000833 fopen("sanika.txt", "a" <unfinished ...>
-  0.000174     SYS_openat(0xffffff9c, 0x562bf4df864c, 1089, 438)                                                              = 5 <0.000046>
-  0.000065     SYS_lseek(5, 0, 2)                                                                                             = 5 <0.000013>
-  0.000032 <... fopen resumed> )                                                                                              = 0x562bf6d9e0a0 <0.000265>
-  0.000023 strlen(" adding output")                                                                                           = 14 <0.000128>
-  0.000159 fwrite(" adding output", 1, 14, 0x562bf6d9e0a0 <unfinished ...>
-  0.000325     SYS_fstat(5, 0x7fff33c08230)                                                                                   = 0 <0.000023>
-  0.000039 <... fwrite resumed> )                                                                                             = 14 <0.000357>
-  0.000023 fclose(0x562bf6d9e0a0 <unfinished ...>
-  0.000105     SYS_write(5, " adding output", 14)                                                                             = 14 <0.000065>
-  0.000082     SYS_close(5)                                                                                                   = 0 <0.000019>
-  0.000046 <... fclose resumed> )                                                                                             = 0 <0.000226>
-  0.000024 puts("\nEnter the operation to be perfo"... <unfinished ...>
-  0.000241     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000074>
-  0.000242     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.000206>
-  0.000235 <... puts resumed> )                                                                                               = 119 <0.000711>
-  0.000025 __isoc99_scanf(0x562bf4df84f3, 0x7fff33c08400, 0x7f3fa7b388c0, 0x7f3fa785b154)                                     = 0 <0.000129>
-  0.000164 malloc(200)                                                                                                        = 0x562bf6d9b260 <0.000098>
-  0.000130 fopen("sanika.txt", "r" <unfinished ...>
-  0.000134     SYS_openat(0xffffff9c, 0x562bf4df864c, 0, 0)                                                                   = 5 <0.000038>
-  0.000062 <... fopen resumed> )                                                                                              = 0x562bf6d9e0a0 <0.000190>
-  0.000022 fseek(0x562bf6d9e0a0, 0, 2, 0 <unfinished ...>
-  0.000438     SYS_fstat(5, 0x7fff33c081c0)                                                                                   = 0 <0.000030>
-  0.000041     SYS_fstat(5, 0x7fff33c082b0)                                                                                   = 0 <0.000017>
-  0.000043     SYS_lseek(5, 0, 0)                                                                                             = 0 <0.000016>
-  0.000032     SYS_read(5, "Hello adding output", 19)                                                                         = 19 <0.000020>
-  0.000139 <... fseek resumed> )                                                                                              = 0 <0.000663>
-  0.000033 ftell(0x562bf6d9e0a0, 0x562bf6d9e180, 0, 19)                                                                       = 19 <0.000373>
-  0.000420 fseek(0x562bf6d9e0a0, 0, 0, 0 <unfinished ...>
-  0.000119     SYS_lseek(5, 19, 0)                                                                                            = 19 <0.000023>
-  0.000040 <... fseek resumed> )                                                                                              = 0 <0.000149>
-  0.000022 fgetc(0x562bf6d9e0a0)                                                                                              = 'H' <0.000098>
-  0.000140 fgetc(0x562bf6d9e0a0)                                                                                              = 'e' <0.000099>
-  0.000131 fgetc(0x562bf6d9e0a0)                                                                                              = 'l' <0.000096>
-  0.000128 fgetc(0x562bf6d9e0a0)                                                                                              = 'l' <0.000096>
-  0.000128 fgetc(0x562bf6d9e0a0)                                                                                              = 'o' <0.000096>
-  0.000128 fgetc(0x562bf6d9e0a0)                                                                                              = ' ' <0.000260>
-  0.000294 fgetc(0x562bf6d9e0a0)                                                                                              = 'a' <0.000097>
-  0.000129 fgetc(0x562bf6d9e0a0)                                                                                              = 'd' <0.000097>
-  0.000128 fgetc(0x562bf6d9e0a0)                                                                                              = 'd' <0.000108>
-  0.000135 fgetc(0x562bf6d9e0a0)                                                                                              = 'i' <0.000082>
-  0.000110 fgetc(0x562bf6d9e0a0)                                                                                              = 'n' <0.000083>
-  0.000110 fgetc(0x562bf6d9e0a0)                                                                                              = 'g' <0.000082>
-  0.000242 fgetc(0x562bf6d9e0a0)                                                                                              = ' ' <0.000104>
-  0.000132 fgetc(0x562bf6d9e0a0)                                                                                              = 'o' <0.000083>
-  0.000110 fgetc(0x562bf6d9e0a0)                                                                                              = 'u' <0.000083>
-  0.000111 fgetc(0x562bf6d9e0a0)                                                                                              = 't' <0.000082>
-  0.000109 fgetc(0x562bf6d9e0a0)                                                                                              = 'p' <0.000082>
-  0.000110 fgetc(0x562bf6d9e0a0)                                                                                              = 'u' <0.000082>
-  0.000110 fgetc(0x562bf6d9e0a0)                                                                                              = 't' <0.000082>
-  0.000110 fgetc(0x562bf6d9e0a0 <unfinished ...>
-  0.000360     SYS_read(5, "", 4096)                                                                                          = 0 <0.000022>
-  0.000040 <... fgetc resumed> )                                                                                              = '\377' <0.000395>
-  0.000020 free(0x562bf6d9b330)                                                                                               = <void> <0.000084>
-  0.000110 free(0x562bf6d9b260)                                                                                               = <void> <0.000082>
-  0.000108 puts("\nEnter a string" <unfinished ...>
-  0.000118     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000034>
-  0.000046     SYS_write(1, "Enter a string\n", 15)                                                                           = 15 <0.000045>
-  0.000064 <... puts resumed> )                                                                                               = 16 <0.000223>
-  0.000020 __isoc99_scanf(0x562bf4df8667, 0x562bf6d9b330, 0x7f3fa7b388c0, 0x7f3fa785b154)                                     = 1 <0.000093>
-  0.000123 printf("\nThe interesting string is %s\n", "world" <unfinished ...>
-  0.000319     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000029>
-  0.000041     SYS_write(1, "The interesting string is world\n"..., 32)                                                       = 32 <0.000073>
-  0.000099 <... printf resumed> )                                                                                             = 33 <0.000453>
-  0.000021 fopen("sanika.txt", "w" <unfinished ...>
-  0.000115     SYS_openat(0xffffff9c, 0x562bf4df864c, 577, 438)                                                               = 6 <0.000067>
-  0.000095 <... fopen resumed> )                                                                                              = 0x562bf6d9f2e0 <0.000205>
-  0.000020 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
-  0.000178     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.000085>
-  0.006185 <... printf resumed> )                                                                                             = 33 <0.006342>
-  0.000058 strlen("world")                                                                                                    = 5 <0.000128>
-  0.000155 fwrite("world", 1, 5, 0x562bf6d9f2e0 <unfinished ...>
-  0.000101     SYS_fstat(6, 0x7fff33c08230)                                                                                   = 0 <0.000019>
-  0.000035 <... fwrite resumed> )                                                                                             = 5 <0.000131>
-  0.000018 fclose(0x562bf6d9f2e0 <unfinished ...>
-  0.000083     SYS_write(6, "world", 5)                                                                                       = 5 <0.000046>
-  0.000059     SYS_close(6)                                                                                                   = 0 <0.000139>
-  0.000169 <... fclose resumed> )                                                                                             = 0 <0.000305>
-  0.000019 fopen("sanika.txt", "a" <unfinished ...>
-  0.000566     SYS_openat(0xffffff9c, 0x562bf4df864c, 1089, 438)                                                              = 6 <0.000037>
-  0.000051     SYS_lseek(6, 0, 2)                                                                                             = 5 <0.000010>
-  0.000025 <... fopen resumed> )                                                                                              = 0x562bf6d9f2e0 <0.000637>
-  0.000018 strlen(" adding output")                                                                                           = 14 <0.000098>
-  0.000122 fwrite(" adding output", 1, 14, 0x562bf6d9f2e0 <unfinished ...>
-  0.000108     SYS_fstat(6, 0x7fff33c08230)                                                                                   = 0 <0.000016>
-  0.000028 <... fwrite resumed> )                                                                                             = 14 <0.000130>
-  0.000017 fclose(0x562bf6d9f2e0 <unfinished ...>
-  0.000080     SYS_write(6, " adding output", 14)                                                                             = 14 <0.000248>
-  0.000263     SYS_close(6)                                                                                                   = 0 <0.000015>
-  0.000035 <... fclose resumed> )                                                                                             = 0 <0.000373>
-  0.000019 puts("\nEnter the operation to be perfo"... <unfinished ...>
-  0.000200     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000071>
-  0.000084     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.002217>
-  0.002256 <... puts resumed> )                                                                                               = 119 <0.002531>
-  0.000023 __isoc99_scanf(0x562bf4df84f3, 0x7fff33c08400, 0x7f3fa7b388c0, 0x7f3fa785b154 <unfinished ...>
-  0.000247     SYS_read(0, "4\n", 1024)                                                                                       = 2 <1.691811>
-  1.691916 <... __isoc99_scanf resumed> )                                                                                     = 1 <1.692138>
-  0.000034 fopen("sanika.txt", "r" <unfinished ...>
-  0.000183     SYS_openat(0xffffff9c, 0x562bf4df864c, 0, 0)                                                                   = 6 <0.000311>
-  0.000340 <... fopen resumed> )                                                                                              = 0x562bf6d9f2e0 <0.000518>
-  0.000026 fgets( <unfinished ...>
-  0.000125     SYS_fstat(6, 0x7fff33c08220)                                                                                   = 0 <0.000022>
-  0.000032     SYS_read(6, "world adding output", 4096)                                                                       = 19 <0.000017>
-  0.000075     SYS_read(6, "", 4096)                                                                                          = 0 <0.000013>
-  0.000038 <... fgets resumed> "world adding output", 200, 0x562bf6d9f2e0)                                                    = 0x562bf6d9b330 <0.000263>
-  0.000189 printf(" %s ", "world adding output")                                                                              = 21 <0.000486>
-  0.000736 fgets( <unfinished ...>
-  0.000490     SYS_read(6, "", 4096)                                                                                          = 0 <0.000046>
-  0.000053 <... fgets resumed> "world adding output", 200, 0x562bf6d9f2e0)                                                    = 0 <0.000535>
-  0.000068 fclose(0x562bf6d9f2e0 <unfinished ...>
-  0.000108     SYS_close(6)                                                                                                   = 0 <0.000021>
-  0.000040 <... fclose resumed> )                                                                                             = 0 <0.000141>
-  0.000022 free(0x562bf6d9b330)                                                                                               = <void> <0.000097>
-  0.000127 free(0x562bf6d9b260)                                                                                               = <void> <0.000096>
-  0.000126 puts("\nEnter a string" <unfinished ...>
-  0.000136     SYS_write(1, " world adding output \n", 22)                                                                    = 22 <0.000124>
-  0.000141     SYS_write(1, "Enter a string\n", 15)                                                                           = 15 <0.000368>
-  0.000399 <... puts resumed> )                                                                                               = 16 <0.000669>
-  0.000025 __isoc99_scanf(0x562bf4df8667, 0x562bf6d9b330, 0x7f3fa7b388c0, 0x7f3fa785b154 <unfinished ...>
-  0.000135     SYS_read(0 <no return ...>
+  0.000000 SYS_brk(0)                                                                                                         = 0x556bab4cc000 <0.000034>
+  0.003657 SYS_access("/etc/ld.so.nohwcap", 00)                                                                               = -2 <0.000105>
+  0.000198 SYS_access("/etc/ld.so.preload", 04)                                                                               = -2 <0.000063>
+  0.000094 SYS_openat(0xffffff9c, 0x7faa8e5e0428, 0x80000, 0)                                                                 = 3 <0.000052>
+  0.000081 SYS_fstat(3, 0x7ffc2882e4f0)                                                                                       = 0 <0.000014>
+  0.000028 SYS_mmap(0, 0x13d16, 1, 2)                                                                                         = 0x7faa8e7d2000 <0.000029>
+  0.005238 SYS_close(3)                                                                                                       = 0 <0.000032>
+  0.000086 SYS_access("/etc/ld.so.nohwcap", 00)                                                                               = -2 <0.000072>
+  0.000094 SYS_openat(0xffffff9c, 0x7faa8e7e8dd0, 0x80000, 0)                                                                 = 3 <0.000052>
+  0.000076 SYS_read(3, "\177ELF\002\001\001\003", 832)                                                                        = 832 <0.000015>
+  0.000060 SYS_fstat(3, 0x7ffc2882e550)                                                                                       = 0 <0.000014>
+  0.000028 SYS_mmap(0, 8192, 3, 34)                                                                                           = 0x7faa8e7d0000 <0.000029>
+  0.000060 SYS_mmap(0, 0x3f0ae0, 5, 2050)                                                                                     = 0x7faa8e1ce000 <0.000037>
+  0.000060 SYS_mprotect(0x7faa8e3b5000, 2097152, 0)                                                                           = 0 <0.000022>
+  0.000036 SYS_mmap(0x7faa8e5b5000, 0x6000, 3, 2066)                                                                          = 0x7faa8e5b5000 <0.000032>
+  0.000060 SYS_mmap(0x7faa8e5bb000, 0x3ae0, 3, 50)                                                                            = 0x7faa8e5bb000 <0.000028>
+  0.000060 SYS_close(3)                                                                                                       = 0 <0.000014>
+  0.000045 SYS_arch_prctl(4098, 0x7faa8e7d1500, 0x7faa8e7d1e30, 0x7faa8e7d09b8)                                               = 0 <0.000026>
+  0.000103 SYS_mprotect(0x7faa8e5b5000, 16384, 1)                                                                             = 0 <0.000021>
+  0.000043 SYS_mprotect(0x556baa725000, 4096, 1)                                                                              = 0 <0.000141>
+  0.000165 SYS_mprotect(0x7faa8e7e6000, 4096, 1)                                                                              = 0 <0.000021>
+  0.000035 SYS_munmap(0x7faa8e7d2000, 81174)                                                                                  = 0 <0.000032>
+  0.014309 fopen("sanika.txt", "r" <unfinished ...>
+  0.000361     SYS_brk(0)                                                                                                     = 0x556bab4cc000 <0.000036>
+  0.000038     SYS_brk(0x556bab4ed000)                                                                                        = 0x556bab4ed000 <0.000015>
+  0.000039     SYS_openat(0xffffff9c, 0x556baa52546a, 0, 0)                                                                   = 3 <0.000041>
+  0.000071 <... fopen resumed> )                                                                                              = 0x556bab4cc260 <0.000504>
+  0.000027 malloc(200)                                                                                                        = 0x556bab4cc490 <0.000101>
+  0.000134 printf("\nThe interesting string is %s\n", "sanika is fun " <unfinished ...>
+  0.000254     SYS_fstat(1, 0x7ffc2882e6d0)                                                                                   = 0 <0.000022>
+  0.000041     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000081>
+  0.000106     SYS_write(1, "The interesting string is sanika"..., 41)                                                        = 41 <0.000301>
+  0.000333 <... printf resumed> )                                                                                             = 42 <0.000727>
+  0.000026 fopen("sanika.txt", "w" <unfinished ...>
+  0.000293     SYS_openat(0xffffff9c, 0x556baa52546a, 577, 438)                                                               = 4 <0.001549>
+  0.001595 <... fopen resumed> )                                                                                              = 0x556bab4cc970 <0.001882>
+  0.000026 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
+  0.000243     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.001534>
+  0.001590 <... printf resumed> )                                                                                             = 33 <0.001817>
+  0.000030 strlen("sanika is fun ")                                                                                           = 14 <0.000165>
+  0.000197 fwrite("sanika is fun ", 1, 14, 0x556bab4cc970 <unfinished ...>
+  0.000145     SYS_fstat(4, 0x7ffc2882ecc0)                                                                                   = 0 <0.000023>
+  0.000041 <... fwrite resumed> )                                                                                             = 14 <0.000181>
+  0.000023 fclose(0x556bab4cc970 <unfinished ...>
+  0.000102     SYS_write(4, "sanika is fun ", 14)                                                                             = 14 <0.000091>
+  0.000113     SYS_close(4)                                                                                                   = 0 <0.001488>
+  0.002047 <... fclose resumed> )                                                                                             = 0 <0.002253>
+  0.000030 fopen("sanika.txt", "a" <unfinished ...>
+  0.000274     SYS_openat(0xffffff9c, 0x556baa52546a, 1089, 438)                                                              = 4 <0.000046>
+  0.000063     SYS_lseek(4, 0, 2)                                                                                             = 14 <0.000013>
+  0.000032 <... fopen resumed> )                                                                                              = 0x556bab4cc970 <0.000364>
+  0.000023 strlen("yaay")                                                                                                     = 4 <0.000105>
+  0.000136 fwrite("yaay", 1, 4, 0x556bab4cc970 <unfinished ...>
+  0.000118     SYS_fstat(4, 0x7ffc2882ecc0)                                                                                   = 0 <0.000022>
+  0.000035 <... fwrite resumed> )                                                                                             = 4 <0.000147>
+  0.000022 fclose(0x556bab4cc970 <unfinished ...>
+  0.000101     SYS_write(4, "yaay", 4)                                                                                        = 4 <0.002420>
+  0.002469     SYS_close(4)                                                                                                   = 0 <0.000029>
+  0.000074 <... fclose resumed> )                                                                                             = 0 <0.002630>
+  0.000029 puts("\nEnter the operation to be perfo"... <unfinished ...>
+  0.000290     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000095>
+  0.000111     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.003346>
+  0.003425 <... puts resumed> )                                                                                               = 119 <0.003786>
+  0.000041 __isoc99_scanf(0x556baa52534b, 0x7ffc2882eea0, 0x7faa8e5bb8c0, 0x7faa8e2de154 <unfinished ...>
+  0.000148     SYS_fstat(0, 0x7ffc2882e580)                                                                                   = 0 <0.000023>
+  0.000032     SYS_read(0, "2\n", 1024)                                                                                       = 2 <6.256050>
+  6.256160 <... __isoc99_scanf resumed> )                                                                                     = 1 <6.256317>
+  0.000032 fopen("sanika.txt", "a" <unfinished ...>
+  0.000180     SYS_openat(0xffffff9c, 0x556baa52546a, 1089, 438)                                                              = 4 <0.000043>
+  0.000060     SYS_lseek(4, 0, 2)                                                                                             = 18 <0.000013>
+  0.000033 <... fopen resumed> )                                                                                              = 0x556bab4cc970 <0.000267>
+  0.000023 fwrite(" HI I am sanika", 1, 15, 0x556bab4cc970 <unfinished ...>
+  0.000304     SYS_fstat(4, 0x7ffc2882ecc0)                                                                                   = 0 <0.000023>
+  0.000038 <... fwrite resumed> )                                                                                             = 15 <0.000335>
+  0.000023 fflush(0x556bab4cc970 <unfinished ...>
+  0.000103     SYS_write(4, " HI I am sanika", 15)                                                                            = 15 <0.000070>
+  0.000345 <... fflush resumed> )                                                                                             = 0 <0.000440>
+  0.000035 puts("File output flush complete" <unfinished ...>
+  0.000354     SYS_write(1, "File output flush complete\n", 27)                                                               = 27 <0.000148>
+  0.000167 <... puts resumed> )                                                                                               = 27 <0.000515>
+  0.000026 printf("\nThe interesting string is %s\n", "sanika is fun sanika is fun " <unfinished ...>
+  0.000324     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000061>
+  0.000077     SYS_write(1, "The interesting string is sanika"..., 55)                                                        = 55 <0.000539>
+  0.000575 <... printf resumed> )                                                                                             = 56 <0.000968>
+  0.000026 fopen("sanika.txt", "w" <unfinished ...>
+  0.000162     SYS_openat(0xffffff9c, 0x556baa52546a, 577, 438)                                                               = 5 <0.000095>
+  0.000134 <... fopen resumed> )                                                                                              = 0x556bab4cdfc0 <0.000291>
+  0.000025 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
+  0.000236     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.000466>
+  0.000496 <... printf resumed> )                                                                                             = 33 <0.000722>
+  0.000025 strlen("sanika is fun sanika is fun ")                                                                             = 28 <0.000183>
+  0.000215 fwrite("sanika is fun sanika is fun ", 1, 28, 0x556bab4cdfc0 <unfinished ...>
+  0.000178     SYS_fstat(5, 0x7ffc2882ecc0)                                                                                   = 0 <0.000022>
+  0.000041 <... fwrite resumed> )                                                                                             = 28 <0.000213>
+  0.000023 fclose(0x556bab4cdfc0 <unfinished ...>
+  0.000241     SYS_write(5, "sanika is fun sanika is fun ", 28)                                                               = 28 <0.002659>
+  0.002834     SYS_close(5)                                                                                                   = 0 <0.000176>
+  0.000721 <... fclose resumed> )                                                                                             = 0 <0.003783>
+  0.000037 fopen("sanika.txt", "a" <unfinished ...>
+  0.000289     SYS_openat(0xffffff9c, 0x556baa52546a, 1089, 438)                                                              = 5 <0.000047>
+  0.000065     SYS_lseek(5, 0, 2)                                                                                             = 28 <0.000013>
+  0.000031 <... fopen resumed> )                                                                                              = 0x556bab4cdfc0 <0.000380>
+  0.000023 strlen("yaay")                                                                                                     = 4 <0.000106>
+  0.000137 fwrite("yaay", 1, 4, 0x556bab4cdfc0 <unfinished ...>
+  0.000119     SYS_fstat(5, 0x7ffc2882ecc0)                                                                                   = 0 <0.000021>
+  0.000035 <... fwrite resumed> )                                                                                             = 4 <0.000148>
+  0.000022 fclose(0x556bab4cdfc0 <unfinished ...>
+  0.000100     SYS_write(5, "yaay", 4)                                                                                        = 4 <0.002106>
+  0.002137     SYS_close(5)                                                                                                   = 0 <0.008101>
+  0.008188 <... fclose resumed> )                                                                                             = 0 <0.010409>
+  0.000033 puts("\nEnter the operation to be perfo"... <unfinished ...>
+  0.000301     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000097>
+  0.000115     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.000357>
+  0.000387 <... puts resumed> )                                                                                               = 119 <0.000797>
+  0.000026 __isoc99_scanf(0x556baa52534b, 0x7ffc2882eea0, 0x7faa8e5bb8c0, 0x7faa8e2de154 <unfinished ...>
+  0.000134     SYS_read(0, "3\n", 1024)                                                                                       = 2 <3.553103>
+  3.553197 <... __isoc99_scanf resumed> )                                                                                     = 1 <3.553308>
+  0.000032 fgetc(0x556bab4cc260 <unfinished ...>
+  0.000267     SYS_fstat(3, 0x7ffc2882ed50)                                                                                   = 0 <0.000149>
+  0.000039     SYS_read(3, "sanika is fun sanika is fun yaay"..., 4096)                                                       = 32 <0.000018>
+  0.000122 <... fgetc resumed> )                                                                                              = 's' <0.000421>
+  0.000024 printf("The character read is %c", 's')                                                                            = 23 <0.000201>
+  0.000235 printf("\nThe interesting string is %s\n", "sanika is fun sanika is fun sani"... <unfinished ...>
+  0.000791     SYS_write(1, "The character read is s\n", 24)                                                                  = 24 <0.000229>
+  0.000246     SYS_write(1, "The interesting string is sanika"..., 69)                                                        = 69 <0.000201>
+  0.000237 <... printf resumed> )                                                                                             = 70 <0.001264>
+  0.000026 fopen("sanika.txt", "w" <unfinished ...>
+  0.000423     SYS_openat(0xffffff9c, 0x556baa52546a, 577, 438)                                                               = 5 <0.000089>
+  0.000127 <... fopen resumed> )                                                                                              = 0x556bab4cdfc0 <0.000544>
+  0.000032 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
+  0.000225     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.000456>
+  0.000482 <... printf resumed> )                                                                                             = 33 <0.000699>
+  0.000025 strlen("sanika is fun sanika is fun sani"...)                                                                      = 42 <0.000223>
+  0.000254 fwrite("sanika is fun sanika is fun sani"..., 1, 42, 0x556bab4cdfc0 <unfinished ...>
+  0.000197     SYS_fstat(5, 0x7ffc2882ecc0)                                                                                   = 0 <0.000022>
+  0.000040 <... fwrite resumed> )                                                                                             = 42 <0.000232>
+  0.000024 fclose(0x556bab4cdfc0 <unfinished ...>
+  0.000102     SYS_write(5, "sanika is fun sanika is fun sani"..., 42)                                                        = 42 <0.000247>
+  0.002304     SYS_close(5)                                                                                                   = 0 <0.000163>
+  0.000206 <... fclose resumed> )                                                                                             = 0 <0.002606>
+  0.000501 fopen("sanika.txt", "a" <unfinished ...>
+  0.000275     SYS_openat(0xffffff9c, 0x556baa52546a, 1089, 438)                                                              = 5 <0.000044>
+  0.000062     SYS_lseek(5, 0, 2)                                                                                             = 42 <0.000013>
+  0.000032 <... fopen resumed> )                                                                                              = 0x556bab4cdfc0 <0.000364>
+  0.000023 strlen("yaay")                                                                                                     = 4 <0.000105>
+  0.000136 fwrite("yaay", 1, 4, 0x556bab4cdfc0 <unfinished ...>
+  0.000117     SYS_fstat(5, 0x7ffc2882ecc0)                                                                                   = 0 <0.000021>
+  0.000036 <... fwrite resumed> )                                                                                             = 4 <0.000147>
+  0.000022 fclose(0x556bab4cdfc0 <unfinished ...>
+  0.000100     SYS_write(5, "yaay", 4)                                                                                        = 4 <0.002439>
+  0.002472     SYS_close(5)                                                                                                   = 0 <0.000027>
+  0.000065 <... fclose resumed> )                                                                                             = 0 <0.002629>
+  0.000025 puts("\nEnter the operation to be perfo"... <unfinished ...>
+  0.000280     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000172>
+  0.000192     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.007318>
+  0.007386 <... puts resumed> )                                                                                               = 119 <0.007843>
+  0.000034 __isoc99_scanf(0x556baa52534b, 0x7ffc2882eea0, 0x7faa8e5bb8c0, 0x7faa8e2de154 <unfinished ...>
+  0.000154     SYS_read(0, "4\n", 1024)                                                                                       = 2 <1.789606>
+  1.789701 <... __isoc99_scanf resumed> )                                                                                     = 1 <1.789832>
+  0.000031 fgets( <unfinished ...>
+  0.000148     SYS_read(3, "ka is fun yaay", 4096)                                                                            = 14 <0.000028>
+  0.000225     SYS_read(3, "", 4096)                                                                                          = 0 <0.000016>
+  0.000044 <... fgets resumed> "anika is fun sanika is fun yaayk"..., 200, 0x556bab4cc260)                                    = 0x556bab4cc490 <0.000409>
+  0.000128 printf(" %s ", "anika is fun sanika is fun yaayk"...)                                                              = 47 <0.000225>
+  0.000259 printf("\nThe interesting string is %s\n", "anika is fun sanika is fun yaayk"... <unfinished ...>
+  0.001710     SYS_write(1, " anika is fun sanika is fun yaay"..., 48)                                                        = 48 <0.000293>
+  0.000321     SYS_write(1, "The interesting string is anika "..., 83)                                                        = 83 <0.000210>
+  0.000257 <... printf resumed> )                                                                                             = 84 <0.002274>
+  0.000028 fopen("sanika.txt", "w" <unfinished ...>
+  0.000292     SYS_openat(0xffffff9c, 0x556baa52546a, 577, 438)                                                               = 5 <0.000088>
+  0.000125 <... fopen resumed> )                                                                                              = 0x556bab4cdfc0 <0.000411>
+  0.000024 printf("%s\nfile has been created\n", "sanika.txt" <unfinished ...>
+  0.000225     SYS_write(1, "sanika.txt\nfile has been created"..., 33)                                                       = 33 <0.000185>
+  0.000207 <... printf resumed> )                                                                                             = 33 <0.000426>
+  0.000025 strlen("anika is fun sanika is fun yaayk"...)                                                                      = 56 <0.000333>
+  0.000364 fwrite("anika is fun sanika is fun yaayk"..., 1, 56, 0x556bab4cdfc0 <unfinished ...>
+  0.000207     SYS_fstat(5, 0x7ffc2882ecc0)                                                                                   = 0 <0.000023>
+  0.000037 <... fwrite resumed> )                                                                                             = 56 <0.000238>
+  0.000022 fclose(0x556bab4cdfc0 <unfinished ...>
+  0.000102     SYS_write(5, "anika is fun sanika is fun yaayk"..., 56)                                                        = 56 <0.001535>
+  0.001566     SYS_close(5)                                                                                                   = 0 <0.000059>
+  0.000099 <... fclose resumed> )                                                                                             = 0 <0.001759>
+  0.000029 fopen("sanika.txt", "a" <unfinished ...>
+  0.000155     SYS_openat(0xffffff9c, 0x556baa52546a, 1089, 438)                                                              = 5 <0.000043>
+  0.000060     SYS_lseek(5, 0, 2)                                                                                             = 56 <0.000013>
+  0.000031 <... fopen resumed> )                                                                                              = 0x556bab4cdfc0 <0.000241>
+  0.000023 strlen("yaay")                                                                                                     = 4 <0.000104>
+  0.000135 fwrite("yaay", 1, 4, 0x556bab4cdfc0 <unfinished ...>
+  0.000119     SYS_fstat(5, 0x7ffc2882ecc0)                                                                                   = 0 <0.000022>
+  0.000035 <... fwrite resumed> )                                                                                             = 4 <0.000148>
+  0.000140 fclose(0x556bab4cdfc0 <unfinished ...>
+  0.000122     SYS_write(5, "yaay", 4)                                                                                        = 4 <0.005048>
+  0.005101     SYS_close(5)                                                                                                   = 0 <0.000031>
+  0.000078 <... fclose resumed> )                                                                                             = 0 <0.005285>
+  0.000032 puts("\nEnter the operation to be perfo"... <unfinished ...>
+  0.000297     SYS_write(1, "\n", 1)                                                                                          = 1 <0.001248>
+  0.001284     SYS_write(1, "Enter the operation to be perfor"..., 118)                                                       = 118 <0.003606>
+  0.003643 <... puts resumed> )                                                                                               = 119 <0.005214>
+  0.000027 __isoc99_scanf(0x556baa52534b, 0x7ffc2882eea0, 0x7faa8e5bb8c0, 0x7faa8e2de154 <unfinished ...>
+  0.000309     SYS_read(0, "1\n", 1024)                                                                                       = 2 <1.913553>
+  1.913661 <... __isoc99_scanf resumed> )                                                                                     = 1 <1.913935>
+  0.000041 malloc(11)                                                                                                         = 0x556bab4cf200 <0.000266>
+  0.000303 __xstat(1, "sanika.txt", 0x7ffc2882ed90 <unfinished ...>
+  0.000150     SYS_stat("sanika.txt", 0x7ffc2882ed90)                                                                         = 0 <0.000054>
+  0.000068 <... __xstat resumed> )                                                                                            = 0 <0.000213>
+  0.000023 printf("%s is the file permission\n", "rw-r--r--" <unfinished ...>
+  0.000223     SYS_write(1, "rw-r--r-- is the file permission"..., 33)                                                        = 33 <0.000486>
+  0.000514 <... printf resumed> )                                                                                             = 33 <0.000730>
+  0.000026 puts("\nTo change the file permission o"... <unfinished ...>
+  0.000414     SYS_write(1, "\n", 1)                                                                                          = 1 <0.000104>
+  0.000093     SYS_write(1, "To change the file permission ou"..., 106)                                                       = 106 <0.000210>
+  0.000238 <... puts resumed> )                                                                                               = 107 <0.000739>
+  0.000024 __isoc99_scanf(0x556baa52534b, 0x7ffc2882ee50, 0x7faa8e5bb8c0, 0x7faa8e2de154 <unfinished ...>
+  0.000372     SYS_read(0 <no return ...>
 error: maximum array length seems negative
-, "4\nllo world\n", 1024)                                                                                                     = -512 <248.102797>
-248.102886 --- SIGINT (Interrupt) ---
-  0.000397 +++ killed by SIGINT +++
+, "1\nayka is fun ", 1024)                                                                                                    = -512 <1.874280>
+  1.874581 --- SIGINT (Interrupt) ---
+  0.000314 +++ killed by SIGINT +++

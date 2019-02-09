@@ -153,7 +153,7 @@ int main(int argc, char* argv[])
          }
 	*(string_in+val++) = 32;
     }
-    printf("\nThe interesting string is %s\n", string_in);
+    //printf("\nThe interesting string is %s\n", string_in);
     create_write_append_file(string_in, file_name);
     printf("\nEnter the operation to be performed: 1.Modify permission of file, 2.flush file, 3.reading character, 4.reading string\n");
     scanf("%d", &operation);

@@ -166,9 +166,21 @@ int main(int argc, char* argv[])
          case 3: char_read=fgetc(fptr);
 		 printf("The character read is %c", char_read);
                   break;
-         case 4: fgets(string_in, string_size, fptr);
+         case 4: FILE* fptr=fopen(file_name,"r");
+		 if(fptr==NULL)
+		{
+			printf("file can't be opened/read %s", file_name);
+		}
+		else
+		{
+			while(fgets(string_input, string_size, fptr)!=NULL)
+			{
+				printf(" %s ", string_input);
+			}
+			fclose(fptr);
+		 }
 		 printf("%s is string output", string_in);
-                  break;    
+                 break;    
 	 default: printf("\nInvalid request\n");
 	          break;
     }

@@ -1,18 +1,11 @@
-/************************************
-*File-operations
-*HW2 Q2
-*Author: Sanika Dongre
-*Date: 02/05/2019
-*Reference: geeksforgeeks, mytutorialspoint, stackoverflow - for fflush
-*************************************/
-
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <errno.h>
 #include <sys/stat.h>
+#include <stdio.h>
+#include <stdint.h>
 
 #define string_size (200)
 
@@ -133,54 +126,13 @@ void flushfileoutput(char* file_name)
       
 }
 
-char* readingcharacter(char* string_input, char* file_name)
-{
-	char* data_read = malloc(200* sizeof(char));
-	size_t file_size =0;
-	int c;
-	FILE* fptr=fopen(file_name, "r");
-	if(fptr==NULL)
-	{
-		printf("file can't be read %s", file_name);
-	}
-	else
-	{
-		fseek(fptr,0,SEEK_END);
-		long f_size = ftell(fptr);
-		fseek(fptr,0,SEEK_SET);
-		while((c = fgetc(fptr))!=EOF)
-		{
-			data_read[file_size++] = (char)c;
-			//printf("%c", (char)c);
-		}
-		data_read[file_size] = '\0';
-	}
-	return data_read;
-}
-
-void readingstring(char* string_input, char* file_name)
-{
-	FILE* fptr=fopen(file_name,"r");
-	if(fptr==NULL)
-	{
-		printf("file can't be opened/read %s", file_name);
-	}
-	else
-	{
-		while(fgets(string_input, string_size, fptr)!=NULL)
-		{
-			printf(" %s ", string_input);
-		}
-		fclose(fptr);
-	}
-}
-
 int main(int argc, char* argv[])
 { 
     int i,next=0,val=0;
     int operation;
     char* file_name = "sanika.txt";
-    char* char_read = (char*)malloc(200*sizeof(char));
+    FILE *fptr = fopen(file_name,"r");
+    uint8_t char_read;
     char* string_in = (char*)malloc((string_size));
     while(1)
     {
@@ -198,6 +150,7 @@ int main(int argc, char* argv[])
             {
                 *(string_in+val++) = *(argv[i]+next++);
             }
+	    *(string_in+val++) = 32;
         }
     }
     printf("\nThe interesting string is %s\n", string_in);
@@ -210,15 +163,17 @@ int main(int argc, char* argv[])
 	          break;
 	 case 2: flushfileoutput(file_name);
 		  break;
-         case 3: char_read=readingcharacter(string_in, file_name);
+         case 3: char_read=fgetc(fptr);
+		 printf("The character read is %c", char_read);
                   break;
-         case 4: readingstring(string_in, file_name);
+         case 4: fgets(string_in, string_size, fptr);
+		 printf("%s is string output", string_in);
                   break;    
 	 default: printf("\nInvalid request\n");
 	          break;
     }
-     free(string_in);
-     free(char_read);
+     
    }
+   free(string_in);
 
 }

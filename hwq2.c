@@ -11,9 +11,9 @@
 
 void create_write_append_file(char* string_input, char* file_name)
 {
-    
-    char* string2 = " adding output";
+   
     FILE *fptr;
+    char* string2 = "yaay";
     fptr = fopen(file_name, "w");
     if(fptr==NULL)
     {
@@ -28,6 +28,7 @@ void create_write_append_file(char* string_input, char* file_name)
     fptr= fopen(file_name, "a");
     fwrite(string2,1,strlen(string2),fptr);
     fclose(fptr);
+
 }
 
 char* permission_func(char* file_name)
@@ -134,24 +135,21 @@ int main(int argc, char* argv[])
     FILE *fptr = fopen(file_name,"r");
     uint8_t char_read;
     char* string_in = (char*)malloc((string_size));
-    while(1)
-    {
     if(argc==1)
     {
         printf("\nEnter a string\n");
         scanf("%s", string_in);
-	*(string_in+strlen(string_in)) = 32;
+	val = strlen(string_in);
+	*(string_in+val++) = 32;
     }
-    if(argc>1)
-    {
-        for(i=1; i<argc; i++)
-        {
-            while(*(argv[i]+ next)!=0)
-            {
-                *(string_in+val++) = *(argv[i]+next++);
-            }
-	    *(string_in+val++) = 32;
-        }
+    for(i=1; i<argc; i++)
+    {	
+	next =0;
+      	while(*(argv[i] + next)!=0)
+      	{
+            *(string_in+val++) = *(argv[i]+next++);
+         }
+	*(string_in+val++) = 32;
     }
     printf("\nThe interesting string is %s\n", string_in);
     create_write_append_file(string_in, file_name);
@@ -166,26 +164,12 @@ int main(int argc, char* argv[])
          case 3: char_read=fgetc(fptr);
 		 printf("The character read is %c", char_read);
                   break;
-         case 4: FILE* fptr=fopen(file_name,"r");
-		 if(fptr==NULL)
-		{
-			printf("file can't be opened/read %s", file_name);
-		}
-		else
-		{
-			while(fgets(string_input, string_size, fptr)!=NULL)
-			{
-				printf(" %s ", string_input);
-			}
-			fclose(fptr);
-		 }
-		 printf("%s is string output", string_in);
+         case 4: fgets(string_in, string_size, fptr);
+		 printf(" %s ", string_in);
                  break;    
 	 default: printf("\nInvalid request\n");
 	          break;
     }
-     
-   }
    free(string_in);
 
 }

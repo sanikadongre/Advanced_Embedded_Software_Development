@@ -11,7 +11,8 @@
 int main()
 {    
    FILE* fptr;
-   int i, size =256, check; 
+   int i, size =256; 
+   unsigned long check,check1,check2,check3,check4,check5;
    uint8_t* string_func = (uint8_t*)malloc(200);
    pid_t proc_id = getpid();
    uid_t user_id = getuid();
@@ -24,14 +25,29 @@ int main()
     printf("Before sorting\n");
     for(i=0; i <size; i++)
     {
-		buffer[i]=48 + rand()%96;
+		buffer[i]=48 + rand()%100;
       		printf("%d, ", buffer[i]);
     }
     printf("\n");	
     check = syscall(398,buffer,size,buffer_sorted);
-    //check = syscall(398, NULL, size, buffer_sorted);
-    //check = syscall(398, buffer, -6748, buffer_sorted);
-    //check = syscall(398, buffer, 200, buffer_sorted);
+    check1= syscall(398, NULL, size, buffer_sorted);
+    if(check1!=0)
+    {
+	    perror("The sorted output is NULL");
+    }
+    check2 = syscall(398, buffer, -6748, buffer_sorted);
+    if(check2!-0)
+    {
+	    perror("The length is less than 0");
+	    
+    }
+    check3 = syscall(398, buffer, 200, buffer_sorted);
+    if(check3!=0)
+    {
+	    perror("The length is less than 256");
+	    
+    }
+    
     if(check == 0) 
     {
 	    printf("After sorting the array is \n");

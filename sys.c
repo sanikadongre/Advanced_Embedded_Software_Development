@@ -852,7 +852,7 @@ SYSCALL_DEFINE3(sortfunc,int __user*, buffer, int, size, int __user*, buffer_sor
 		printk(KERN_ERR "The malloc for buffk failed\n");
 		return -ENOMEM;
 	}
-	copy_from_user(buffk,buffer,size);
+	copy_from_user(buffk,buffer,size*4);
 	
 	if(size<0|| size<256)
 	{
@@ -871,7 +871,7 @@ SYSCALL_DEFINE3(sortfunc,int __user*, buffer, int, size, int __user*, buffer_sor
 			}
 		}
 	}
-	copy_to_user(buffer_sorted,buffk,size);
+	copy_to_user(buffer_sorted,buffk,size*4);
 	printk("system call exited");
 	return 0;	
 }

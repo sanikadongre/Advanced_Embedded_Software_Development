@@ -1,6 +1,5 @@
 #include <sys/types.h>
 #include <linux/kernel.h>
-
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/syscall.h>

@@ -2,6 +2,7 @@
 #include <linux/kernel.h>
 #include <sys/syscall.h>
 #include <stdlib.h>
+#include <errno.h>
 #include <time.h>
 
 int main()
@@ -19,6 +20,9 @@ int main()
     }
     printf("\n");	
     check = syscall(398,buffer,size,buffer_sorted);
+    //check = syscall(398, NULL, size, buffer_sorted);
+    //check = syscall(398, buffer, -6748, buffer_sorted);
+    //check = syscall(398, buffer, 200, buffer_sorted);
     if(check == 0) 
     {
 	    printf("After sorting the array is \n");

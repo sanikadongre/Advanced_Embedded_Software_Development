@@ -10,14 +10,9 @@
 
 int main()
 {    
-   FILE* fptr;
-   int i, size =256; 
-   unsigned long check,check1,check2,check3,check4,check5;
-   uint8_t* string_func = (uint8_t*)malloc(200);
-   pid_t proc_id = getpid();
-   uid_t user_id = getuid();
-   time_t t= time(NULL);
-   struct tm *tme_date = localtime(&t);
+   
+    int i, size =256; 
+    unsigned long check,check1,check2,check3,check4,check5;
     time_t tcheck;
     int *buffer = (int*)malloc(sizeof(int)*size);
     int *buffer_sorted = (int*)malloc(sizeof(int)*size);
@@ -30,24 +25,21 @@ int main()
     }
     printf("\n");	
     check = syscall(398,buffer,size,buffer_sorted);
-    check1= syscall(398, NULL, size, buffer_sorted);
+    check1 = syscall(398,NULL,size,buffer_sorted);
+    check2 = syscall(398, buffer, -6789,buffer_sorted);
+    check3 = syscall(398, buffer, 250, buffer_sorted);
     if(check1!=0)
     {
-	    perror("The sorted output is NULL");
+	    printf("error condition\n");
     }
-    check2 = syscall(398, buffer, -6748, buffer_sorted);
-    if(check2!-0)
+    if(check2!=0)
     {
-	    perror("The length is less than 0");
-	    
+	    printf("error condition\n");
     }
-    check3 = syscall(398, buffer, 200, buffer_sorted);
-    if(check3!=0)
+       if(check3!=0)
     {
-	    perror("The length is less than 256");
-	    
+	    printf("error condition\n");
     }
-    
     if(check == 0) 
     {
 	    printf("After sorting the array is \n");
@@ -56,19 +48,7 @@ int main()
 		    printf("%d, ", buffer_sorted[i]);
 	    }
 	    printf("\n");
-	    printf("sorting gets done\n");	
-	    sprintf(string_func, "Processid=%d\n Userid=%d\n Timeanddate =%s\n Output sorted= %d, ", proc_id, user_id, asctime(tme_date), buffer_sorted);
-	    fptr = fopen("cron_log.txt","a");
-	    fwrite(string_func,1,strlen(string_func),fptr);
-	    for(i=0;i<size;i++)
-	    {
-		    sprintf(string_func,"%d ,", buffer_sorted[i]);
-		    fwrite(string_func,1,strlen(string_func),fptr);
-	    }
-	    printf("\n\n");
-	    fwrite(string_func,1,strlen(string_func),fptr);
-	    free(string_func);
-	    fclose(fptr);
+	    printf("sorting gets done\n");
     	}
     	else 
     	{

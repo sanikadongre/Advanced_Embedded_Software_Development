@@ -31,7 +31,7 @@ int main()
 	    perror("The sorted output is NULL");
     }
     check2 = syscall(398, buffer, -6748, buffer_sorted);
-    if(check2!-0)
+    if(check2!=0)
     {
 	    perror("The length is less than 0");
 	    

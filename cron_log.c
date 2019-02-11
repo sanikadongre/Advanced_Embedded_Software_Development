@@ -24,7 +24,7 @@ int main()
     printf("Before sorting\n");
     for(i=0; i <size; i++)
     {
-		buffer[i]=48 + rand()%96;
+		buffer[i]=48 + rand()%100;
       		printf("%d, ", buffer[i]);
     }
     printf("\n");	

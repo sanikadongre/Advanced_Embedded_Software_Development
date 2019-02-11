@@ -1,6 +1,6 @@
 #include <sys/types.h>
 #include <linux/kernel.h>
-#include <linux/errno.h>
+
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/syscall.h>

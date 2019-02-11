@@ -1,7 +1,7 @@
-#include <sys/types.h>
-#include <linux/kernel.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <sys/types.h>
+#include <linux/kernel.h>
 #include <sys/syscall.h>
 #include <stdlib.h>
 #include <errno.h>
@@ -28,7 +28,7 @@ int main()
     if(check == 0) 
     {
 	    printf("After sorting the array is \n");
-	    for(i = 0; i <size; i++)
+	    for(i=0; i<size; i++)
 	    {
 		    printf("%d, ", buffer_sorted[i]);
 	    }
@@ -39,5 +39,5 @@ int main()
     {
          printf("System call has been failed %d\n", check);
     }
-    return (0);
+    return 0;
 }

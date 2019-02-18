@@ -53,6 +53,7 @@ static int linkedlist_create(void)
 	}
 	INIT_LIST_HEAD(&listnodeanimals.list);
 	INIT_LIST_HEAD(&listnodeanimals_filter.list);
+	printk("\nStarted Allocating Memory for List 1\n");
 	for(i=0; i<MAX; i++)
 	{
 		found=0;
@@ -73,7 +74,8 @@ static int linkedlist_create(void)
 			list_add_tail(&(nodeheadptr->list),&(listnodeanimals.list));
 			nodecounter ++;
 		}
-	}
+	}	
+	printk("\nEnded Allocating Memory for List 1\nStated Allocating Memory for List 2\n");
 	list_for_each_entry(nodeheadptr, &listnodeanimals.list,list)
 	{
 		printk("The animal type is %s and the count is %d",nodeheadptr->animal_type,nodeheadptr->count);
@@ -96,7 +98,8 @@ static int linkedlist_create(void)
 			list_add_tail(&(nodeheadptr1->list),&(listnodeanimals_filter.list));
 			filterednodecounter++;
 		}
-	}
+	}	
+	printk("\nEnded Allocating Memory for List 2\n");
 	printk("The number of nodes are %d",nodecounter);
 	printk("Amount of memory dynamically allocated is %d bytes",nodecounter*sizeof(listnodeanimals));
 	printk("The filter criteria is animal type is %s and the count is %d",filteranimal,filtercount);
@@ -112,17 +115,19 @@ static int linkedlist_create(void)
 
 static void linkedlist_exit(void)
 {
+	printk("\nStarted Allocating Memory for List 1\n");
 	list_for_each(headptr, &listnodeanimals.list)
 	{
 		kfree(list_entry(headptr, struct node_t, list));
 	}
-	printk("first list is free");
+	printk("\nEnded Allocating Memory for List 1\n");
 	printk("The memory freed is %d bytes",nodecounter*sizeof(listnodeanimals));
+	printk("\nStarted Allocating Memory for List 2\n");	
 	list_for_each(headptr, &listnodeanimals_filter.list)
 	{
 		kfree(list_entry(headptr, struct node_t, list));
 	}
-	printk("The second linked list is free");
+	printk("\nEnded Allocating Memory for List 2\n");
 	printk("The memory freed is %d bytes",filterednodecounter*sizeof(listnodeanimals));
 }
 

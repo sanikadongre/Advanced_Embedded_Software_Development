@@ -1,0 +1,13 @@
+set sysroot ~/buildroot/output/staging
+target extended-remote 128.138.189.209:1000
+remote put /home/sanika/Advanced_Embedded_Software_Development/sanika_hwq2.elf sanika_hwq2.elf
+set remote exec-file sanika_hwq2.elf
+file sanika_hwq2.elf
+break main 
+b 10
+run
+s
+p val
+c
+
+

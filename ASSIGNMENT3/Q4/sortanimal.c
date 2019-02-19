@@ -115,19 +115,19 @@ static int linkedlist_create(void)
 
 static void linkedlist_exit(void)
 {
-	printk("\nStarted Allocating Memory for List 1\n");
+	printk("\nStarted Freeing Memory for List 1\n");
 	list_for_each(headptr, &listnodeanimals.list)
 	{
 		kfree(list_entry(headptr, struct node_t, list));
 	}
-	printk("\nEnded Allocating Memory for List 1\n");
+	printk("\nEnded Freeing Memory for List 1\n");
 	printk("The memory freed is %d bytes",nodecounter*sizeof(listnodeanimals));
-	printk("\nStarted Allocating Memory for List 2\n");	
+	printk("\nStarted Freeing Memory for List 2\n");	
 	list_for_each(headptr, &listnodeanimals_filter.list)
 	{
 		kfree(list_entry(headptr, struct node_t, list));
 	}
-	printk("\nEnded Allocating Memory for List 2\n");
+	printk("\nEnded Freeing Memory for List 2\n");
 	printk("The memory freed is %d bytes",filterednodecounter*sizeof(listnodeanimals));
 }
 

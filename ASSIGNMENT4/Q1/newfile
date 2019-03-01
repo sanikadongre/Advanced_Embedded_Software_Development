@@ -1,0 +1,1915 @@
+
+Current time is 816706 microseconds
+Signal USR1 exiting
+Exit
+
+Current time is 759017 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29572
+CPU Utilization is 
+cpu  298493 234 32728 2353102 20694 0 198 0 0 0
+cpu0 298493 234 32728 2353102 20694 0 198 0 0 0
+
+
+Current time is 658137 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29568
+CPU Utilization is 
+cpu  298489 234 32728 2353101 20689 0 198 0 0 0
+cpu0 298489 234 32728 2353101 20689 0 198 0 0 0
+
+
+Current time is 558777 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29564
+CPU Utilization is 
+cpu  298486 234 32727 2353095 20689 0 198 0 0 0
+cpu0 298486 234 32727 2353095 20689 0 198 0 0 0
+
+
+Current time is 458275 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29560
+CPU Utilization is 
+cpu  298482 234 32726 2353091 20689 0 198 0 0 0
+cpu0 298482 234 32726 2353091 20689 0 198 0 0 0
+
+
+Current time is 358071 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29556
+CPU Utilization is 
+cpu  298479 234 32725 2353084 20689 0 198 0 0 0
+cpu0 298479 234 32725 2353084 20689 0 198 0 0 0
+
+
+Current time is 258171 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29552
+CPU Utilization is 
+cpu  298475 234 32724 2353080 20689 0 198 0 0 0
+cpu0 298475 234 32724 2353080 20689 0 198 0 0 0
+
+
+Current time is 158860 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29548
+CPU Utilization is 
+cpu  298472 234 32724 2353074 20689 0 198 0 0 0
+cpu0 298472 234 32724 2353074 20689 0 198 0 0 0
+
+
+Current time is 58163 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29544
+CPU Utilization is 
+cpu  298468 234 32723 2353068 20689 0 198 0 0 0
+cpu0 298468 234 32723 2353068 20689 0 198 0 0 0
+
+
+Current time is 958096 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29540
+CPU Utilization is 
+cpu  298463 234 32722 2353064 20689 0 198 0 0 0
+cpu0 298463 234 32722 2353064 20689 0 198 0 0 0
+
+
+Current time is 858296 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29536
+CPU Utilization is 
+cpu  298458 234 32722 2353061 20689 0 198 0 0 0
+cpu0 298458 234 32722 2353061 20689 0 198 0 0 0
+
+
+Current time is 758147 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29532
+CPU Utilization is 
+cpu  298455 234 32720 2353055 20689 0 198 0 0 0
+cpu0 298455 234 32720 2353055 20689 0 198 0 0 0
+
+
+Current time is 658193 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29528
+CPU Utilization is 
+cpu  298450 234 32720 2353052 20689 0 198 0 0 0
+cpu0 298450 234 32720 2353052 20689 0 198 0 0 0
+
+
+Current time is 558116 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29524
+CPU Utilization is 
+cpu  298444 234 32719 2353047 20689 0 198 0 0 0
+cpu0 298444 234 32719 2353047 20689 0 198 0 0 0
+
+
+Current time is 458603 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29520
+CPU Utilization is 
+cpu  298439 234 32719 2353043 20689 0 198 0 0 0
+cpu0 298439 234 32719 2353043 20689 0 198 0 0 0
+
+
+Current time is 358301 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29516
+CPU Utilization is 
+cpu  298433 234 32718 2353039 20689 0 198 0 0 0
+cpu0 298433 234 32718 2353039 20689 0 198 0 0 0
+
+
+Current time is 258789 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29512
+CPU Utilization is 
+cpu  298430 234 32718 2353034 20689 0 198 0 0 0
+cpu0 298430 234 32718 2353034 20689 0 198 0 0 0
+
+
+Current time is 158179 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29508
+CPU Utilization is 
+cpu  298426 234 32716 2353030 20689 0 198 0 0 0
+cpu0 298426 234 32716 2353030 20689 0 198 0 0 0
+
+
+Current time is 59064 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29504
+CPU Utilization is 
+cpu  298421 234 32715 2353025 20689 0 198 0 0 0
+cpu0 298421 234 32715 2353025 20689 0 198 0 0 0
+
+
+Current time is 958157 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29500
+CPU Utilization is 
+cpu  298418 234 32713 2353020 20689 0 198 0 0 0
+cpu0 298418 234 32713 2353020 20689 0 198 0 0 0
+
+
+Current time is 858494 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29496
+CPU Utilization is 
+cpu  298414 234 32712 2353015 20689 0 198 0 0 0
+cpu0 298414 234 32712 2353015 20689 0 198 0 0 0
+
+
+Current time is 758561 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29492
+CPU Utilization is 
+cpu  298409 234 32712 2353012 20689 0 198 0 0 0
+cpu0 298409 234 32712 2353012 20689 0 198 0 0 0
+
+
+Current time is 658106 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29488
+CPU Utilization is 
+cpu  298405 234 32710 2353006 20689 0 198 0 0 0
+cpu0 298405 234 32710 2353006 20689 0 198 0 0 0
+
+
+Current time is 559449 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29484
+CPU Utilization is 
+cpu  298401 234 32709 2353002 20689 0 198 0 0 0
+cpu0 298401 234 32709 2353002 20689 0 198 0 0 0
+
+
+Current time is 458082 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29480
+CPU Utilization is 
+cpu  298398 234 32708 2352997 20689 0 198 0 0 0
+cpu0 298398 234 32708 2352997 20689 0 198 0 0 0
+
+
+Current time is 358756 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29476
+CPU Utilization is 
+cpu  298393 234 32707 2352992 20689 0 198 0 0 0
+cpu0 298393 234 32707 2352992 20689 0 198 0 0 0
+
+
+Current time is 258433 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29472
+CPU Utilization is 
+cpu  298390 234 32707 2352986 20689 0 198 0 0 0
+cpu0 298390 234 32707 2352986 20689 0 198 0 0 0
+
+
+Current time is 158636 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29468
+CPU Utilization is 
+cpu  298386 234 32706 2352982 20689 0 198 0 0 0
+cpu0 298386 234 32706 2352982 20689 0 198 0 0 0
+
+
+Current time is 58569 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29464
+CPU Utilization is 
+cpu  298382 234 32706 2352977 20689 0 198 0 0 0
+cpu0 298382 234 32706 2352977 20689 0 198 0 0 0
+
+
+Current time is 959000 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29460
+CPU Utilization is 
+cpu  298379 234 32704 2352972 20689 0 198 0 0 0
+cpu0 298379 234 32704 2352972 20689 0 198 0 0 0
+
+
+Current time is 858923 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29456
+CPU Utilization is 
+cpu  298376 234 32703 2352966 20689 0 198 0 0 0
+cpu0 298376 234 32703 2352966 20689 0 198 0 0 0
+
+
+Current time is 758159 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29452
+CPU Utilization is 
+cpu  298370 234 32702 2352964 20689 0 198 0 0 0
+cpu0 298370 234 32702 2352964 20689 0 198 0 0 0
+
+
+Current time is 658343 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29448
+CPU Utilization is 
+cpu  298366 234 32701 2352958 20689 0 198 0 0 0
+cpu0 298366 234 32701 2352958 20689 0 198 0 0 0
+
+
+Current time is 558906 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29444
+CPU Utilization is 
+cpu  298362 234 32700 2352954 20689 0 198 0 0 0
+cpu0 298362 234 32700 2352954 20689 0 198 0 0 0
+
+
+Current time is 458269 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29440
+CPU Utilization is 
+cpu  298358 234 32699 2352949 20689 0 198 0 0 0
+cpu0 298358 234 32699 2352949 20689 0 198 0 0 0
+
+
+Current time is 358788 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29436
+CPU Utilization is 
+cpu  298354 234 32698 2352944 20689 0 198 0 0 0
+cpu0 298354 234 32698 2352944 20689 0 198 0 0 0
+
+
+Current time is 258317 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29432
+CPU Utilization is 
+cpu  298351 234 32697 2352938 20689 0 198 0 0 0
+cpu0 298351 234 32697 2352938 20689 0 198 0 0 0
+
+
+Current time is 158973 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29428
+CPU Utilization is 
+cpu  298347 234 32696 2352934 20689 0 198 0 0 0
+cpu0 298347 234 32696 2352934 20689 0 198 0 0 0
+
+
+Current time is 58594 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29424
+CPU Utilization is 
+cpu  298343 234 32695 2352929 20689 0 198 0 0 0
+cpu0 298343 234 32695 2352929 20689 0 198 0 0 0
+
+
+Current time is 959240 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29420
+CPU Utilization is 
+cpu  298338 234 32694 2352926 20689 0 198 0 0 0
+cpu0 298338 234 32694 2352926 20689 0 198 0 0 0
+
+
+Current time is 858330 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29416
+CPU Utilization is 
+cpu  298334 234 32693 2352920 20689 0 198 0 0 0
+cpu0 298334 234 32693 2352920 20689 0 198 0 0 0
+
+
+Current time is 758109 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29412
+CPU Utilization is 
+cpu  298327 234 32692 2352920 20689 0 198 0 0 0
+cpu0 298327 234 32692 2352920 20689 0 198 0 0 0
+
+
+Current time is 658089 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29408
+CPU Utilization is 
+cpu  298323 234 32690 2352914 20689 0 198 0 0 0
+cpu0 298323 234 32690 2352914 20689 0 198 0 0 0
+
+
+Current time is 558081 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29404
+CPU Utilization is 
+cpu  298317 234 32690 2352911 20689 0 198 0 0 0
+cpu0 298317 234 32690 2352911 20689 0 198 0 0 0
+
+
+Current time is 458231 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29400
+CPU Utilization is 
+cpu  298313 234 32690 2352906 20689 0 198 0 0 0
+cpu0 298313 234 32690 2352906 20689 0 198 0 0 0
+
+
+Current time is 358505 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29396
+CPU Utilization is 
+cpu  298310 234 32687 2352901 20689 0 198 0 0 0
+cpu0 298310 234 32687 2352901 20689 0 198 0 0 0
+
+
+Current time is 258824 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29392
+CPU Utilization is 
+cpu  298307 234 32686 2352897 20689 0 198 0 0 0
+cpu0 298307 234 32686 2352897 20689 0 198 0 0 0
+
+
+Current time is 158405 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29388
+CPU Utilization is 
+cpu  298302 234 32684 2352892 20689 0 198 0 0 0
+cpu0 298302 234 32684 2352892 20689 0 198 0 0 0
+
+
+Current time is 58498 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29384
+CPU Utilization is 
+cpu  298297 234 32683 2352889 20689 0 198 0 0 0
+cpu0 298297 234 32683 2352889 20689 0 198 0 0 0
+
+
+Current time is 958208 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29380
+CPU Utilization is 
+cpu  298294 234 32682 2352883 20689 0 198 0 0 0
+cpu0 298294 234 32682 2352883 20689 0 198 0 0 0
+
+
+Current time is 858524 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29376
+CPU Utilization is 
+cpu  298290 234 32682 2352878 20689 0 198 0 0 0
+cpu0 298290 234 32682 2352878 20689 0 198 0 0 0
+
+
+Current time is 758662 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29372
+CPU Utilization is 
+cpu  298283 234 32681 2352876 20689 0 198 0 0 0
+cpu0 298283 234 32681 2352876 20689 0 198 0 0 0
+
+
+Current time is 658845 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29368
+CPU Utilization is 
+cpu  298279 234 32680 2352871 20689 0 198 0 0 0
+cpu0 298279 234 32680 2352871 20689 0 198 0 0 0
+
+
+Current time is 558687 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29364
+CPU Utilization is 
+cpu  298275 234 32680 2352864 20689 0 198 0 0 0
+cpu0 298275 234 32680 2352864 20689 0 198 0 0 0
+
+
+Current time is 458721 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29360
+CPU Utilization is 
+cpu  298268 234 32680 2352862 20689 0 198 0 0 0
+cpu0 298268 234 32680 2352862 20689 0 198 0 0 0
+
+
+Current time is 358354 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29356
+CPU Utilization is 
+cpu  298264 234 32679 2352859 20689 0 198 0 0 0
+cpu0 298264 234 32679 2352859 20689 0 198 0 0 0
+
+
+Current time is 258588 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29352
+CPU Utilization is 
+cpu  298259 234 32678 2352853 20689 0 198 0 0 0
+cpu0 298259 234 32678 2352853 20689 0 198 0 0 0
+
+
+Current time is 159295 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29348
+CPU Utilization is 
+cpu  298254 234 32678 2352851 20689 0 198 0 0 0
+cpu0 298254 234 32678 2352851 20689 0 198 0 0 0
+
+
+Current time is 58093 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29344
+CPU Utilization is 
+cpu  298247 234 32676 2352846 20689 0 198 0 0 0
+cpu0 298247 234 32676 2352846 20689 0 198 0 0 0
+
+
+Current time is 958701 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29340
+CPU Utilization is 
+cpu  298242 234 32676 2352842 20689 0 198 0 0 0
+cpu0 298242 234 32676 2352842 20689 0 198 0 0 0
+
+
+Current time is 858263 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29336
+CPU Utilization is 
+cpu  298240 234 32674 2352836 20689 0 198 0 0 0
+cpu0 298240 234 32674 2352836 20689 0 198 0 0 0
+
+
+Current time is 758816 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29332
+CPU Utilization is 
+cpu  298235 234 32674 2352831 20689 0 198 0 0 0
+cpu0 298235 234 32674 2352831 20689 0 198 0 0 0
+
+
+Current time is 658314 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29328
+CPU Utilization is 
+cpu  298230 234 32674 2352827 20689 0 198 0 0 0
+cpu0 298230 234 32674 2352827 20689 0 198 0 0 0
+
+
+Current time is 558396 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29324
+CPU Utilization is 
+cpu  298227 234 32672 2352821 20689 0 198 0 0 0
+cpu0 298227 234 32672 2352821 20689 0 198 0 0 0
+
+
+Current time is 458116 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29320
+CPU Utilization is 
+cpu  298224 234 32671 2352815 20689 0 198 0 0 0
+cpu0 298224 234 32671 2352815 20689 0 198 0 0 0
+
+
+Current time is 358902 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29316
+CPU Utilization is 
+cpu  298219 234 32671 2352810 20689 0 198 0 0 0
+cpu0 298219 234 32671 2352810 20689 0 198 0 0 0
+
+
+Current time is 258301 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29312
+CPU Utilization is 
+cpu  298215 234 32670 2352804 20689 0 198 0 0 0
+cpu0 298215 234 32670 2352804 20689 0 198 0 0 0
+
+
+Current time is 158198 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29308
+CPU Utilization is 
+cpu  298210 234 32670 2352800 20689 0 198 0 0 0
+cpu0 298210 234 32670 2352800 20689 0 198 0 0 0
+
+
+Current time is 58488 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29304
+CPU Utilization is 
+cpu  298202 234 32669 2352799 20689 0 198 0 0 0
+cpu0 298202 234 32669 2352799 20689 0 198 0 0 0
+
+
+Current time is 958136 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29300
+CPU Utilization is 
+cpu  298199 234 32669 2352793 20689 0 198 0 0 0
+cpu0 298199 234 32669 2352793 20689 0 198 0 0 0
+
+
+Current time is 858246 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29296
+CPU Utilization is 
+cpu  298192 234 32668 2352790 20689 0 198 0 0 0
+cpu0 298192 234 32668 2352790 20689 0 198 0 0 0
+
+
+Current time is 758376 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29292
+CPU Utilization is 
+cpu  298183 234 32668 2352790 20689 0 198 0 0 0
+cpu0 298183 234 32668 2352790 20689 0 198 0 0 0
+
+
+Current time is 658300 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29288
+CPU Utilization is 
+cpu  298175 234 32665 2352790 20689 0 198 0 0 0
+cpu0 298175 234 32665 2352790 20689 0 198 0 0 0
+
+
+Current time is 558149 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29284
+CPU Utilization is 
+cpu  298166 234 32665 2352790 20689 0 198 0 0 0
+cpu0 298166 234 32665 2352790 20689 0 198 0 0 0
+
+
+Current time is 458198 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29280
+CPU Utilization is 
+cpu  298157 234 32664 2352790 20689 0 198 0 0 0
+cpu0 298157 234 32664 2352790 20689 0 198 0 0 0
+
+
+Current time is 358203 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29276
+CPU Utilization is 
+cpu  298152 234 32663 2352786 20689 0 198 0 0 0
+cpu0 298152 234 32663 2352786 20689 0 198 0 0 0
+
+
+Current time is 258691 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29272
+CPU Utilization is 
+cpu  298146 234 32661 2352785 20689 0 198 0 0 0
+cpu0 298146 234 32661 2352785 20689 0 198 0 0 0
+
+
+Current time is 158155 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29268
+CPU Utilization is 
+cpu  298141 234 32660 2352780 20689 0 198 0 0 0
+cpu0 298141 234 32660 2352780 20689 0 198 0 0 0
+
+
+Current time is 58195 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29264
+CPU Utilization is 
+cpu  298133 234 32660 2352778 20689 0 198 0 0 0
+cpu0 298133 234 32660 2352778 20689 0 198 0 0 0
+
+
+Current time is 958231 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29260
+CPU Utilization is 
+cpu  298127 234 32659 2352776 20689 0 198 0 0 0
+cpu0 298127 234 32659 2352776 20689 0 198 0 0 0
+
+
+Current time is 858113 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29256
+CPU Utilization is 
+cpu  298124 234 32658 2352771 20689 0 198 0 0 0
+cpu0 298124 234 32658 2352771 20689 0 198 0 0 0
+
+
+Current time is 758356 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29252
+CPU Utilization is 
+cpu  298120 234 32658 2352765 20689 0 198 0 0 0
+cpu0 298120 234 32658 2352765 20689 0 198 0 0 0
+
+
+Current time is 658504 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29248
+CPU Utilization is 
+cpu  298116 234 32657 2352761 20689 0 198 0 0 0
+cpu0 298116 234 32657 2352761 20689 0 198 0 0 0
+
+
+Current time is 558048 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29244
+CPU Utilization is 
+cpu  298112 234 32657 2352754 20689 0 198 0 0 0
+cpu0 298112 234 32657 2352754 20689 0 198 0 0 0
+
+
+Current time is 458007 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29240
+CPU Utilization is 
+cpu  298104 234 32657 2352752 20689 0 198 0 0 0
+cpu0 298104 234 32657 2352752 20689 0 198 0 0 0
+
+
+Current time is 358187 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29233
+CPU Utilization is 
+cpu  298095 234 32656 2352752 20689 0 198 0 0 0
+cpu0 298095 234 32656 2352752 20689 0 198 0 0 0
+
+
+Current time is 258412 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29229
+CPU Utilization is 
+cpu  298086 234 32655 2352752 20689 0 198 0 0 0
+cpu0 298086 234 32655 2352752 20689 0 198 0 0 0
+
+
+Current time is 158739 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29225
+CPU Utilization is 
+cpu  298077 234 32654 2352752 20689 0 198 0 0 0
+cpu0 298077 234 32654 2352752 20689 0 198 0 0 0
+
+
+Current time is 58334 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29203
+CPU Utilization is 
+cpu  298068 234 32653 2352752 20689 0 198 0 0 0
+cpu0 298068 234 32653 2352752 20689 0 198 0 0 0
+
+
+Current time is 958285 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29195
+CPU Utilization is 
+cpu  298060 234 32651 2352752 20689 0 198 0 0 0
+cpu0 298060 234 32651 2352752 20689 0 198 0 0 0
+
+
+Current time is 858733 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29191
+CPU Utilization is 
+cpu  298051 234 32650 2352752 20689 0 198 0 0 0
+cpu0 298051 234 32650 2352752 20689 0 198 0 0 0
+
+
+Current time is 758310 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29186
+CPU Utilization is 
+cpu  298043 234 32648 2352752 20689 0 198 0 0 0
+cpu0 298043 234 32648 2352752 20689 0 198 0 0 0
+
+
+Current time is 658081 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29180
+CPU Utilization is 
+cpu  298036 234 32647 2352750 20689 0 198 0 0 0
+cpu0 298036 234 32647 2352750 20689 0 198 0 0 0
+
+
+Current time is 558465 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29176
+CPU Utilization is 
+cpu  298030 234 32646 2352747 20689 0 198 0 0 0
+cpu0 298030 234 32646 2352747 20689 0 198 0 0 0
+
+
+Current time is 458087 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29172
+CPU Utilization is 
+cpu  298023 234 32646 2352744 20689 0 198 0 0 0
+cpu0 298023 234 32646 2352744 20689 0 198 0 0 0
+
+
+Current time is 358093 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29168
+CPU Utilization is 
+cpu  298018 234 32645 2352740 20689 0 198 0 0 0
+cpu0 298018 234 32645 2352740 20689 0 198 0 0 0
+
+
+Current time is 258446 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29164
+CPU Utilization is 
+cpu  298011 234 32644 2352738 20689 0 198 0 0 0
+cpu0 298011 234 32644 2352738 20689 0 198 0 0 0
+
+
+Current time is 158632 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29160
+CPU Utilization is 
+cpu  298007 234 32642 2352735 20689 0 198 0 0 0
+cpu0 298007 234 32642 2352735 20689 0 198 0 0 0
+
+
+Current time is 58365 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29156
+CPU Utilization is 
+cpu  298000 234 32642 2352733 20689 0 198 0 0 0
+cpu0 298000 234 32642 2352733 20689 0 198 0 0 0
+
+
+Current time is 958814 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29152
+CPU Utilization is 
+cpu  297994 234 32640 2352731 20689 0 198 0 0 0
+cpu0 297994 234 32640 2352731 20689 0 198 0 0 0
+
+
+Current time is 858327 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29148
+CPU Utilization is 
+cpu  297991 234 32638 2352725 20689 0 198 0 0 0
+cpu0 297991 234 32638 2352725 20689 0 198 0 0 0
+
+
+Current time is 758324 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29144
+CPU Utilization is 
+cpu  297985 234 32638 2352721 20689 0 198 0 0 0
+cpu0 297985 234 32638 2352721 20689 0 198 0 0 0
+
+
+Current time is 658311 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29140
+CPU Utilization is 
+cpu  297976 234 32638 2352721 20689 0 198 0 0 0
+cpu0 297976 234 32638 2352721 20689 0 198 0 0 0
+
+
+Current time is 558305 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29136
+CPU Utilization is 
+cpu  297969 234 32637 2352718 20689 0 198 0 0 0
+cpu0 297969 234 32637 2352718 20689 0 198 0 0 0
+
+
+Current time is 458774 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29132
+CPU Utilization is 
+cpu  297962 234 32636 2352718 20689 0 198 0 0 0
+cpu0 297962 234 32636 2352718 20689 0 198 0 0 0
+
+
+Current time is 358404 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29128
+CPU Utilization is 
+cpu  297955 234 32634 2352716 20689 0 198 0 0 0
+cpu0 297955 234 32634 2352716 20689 0 198 0 0 0
+
+
+Current time is 258719 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29124
+CPU Utilization is 
+cpu  297949 234 32632 2352715 20689 0 198 0 0 0
+cpu0 297949 234 32632 2352715 20689 0 198 0 0 0
+
+
+Current time is 158277 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29120
+CPU Utilization is 
+cpu  297946 234 32631 2352709 20689 0 198 0 0 0
+cpu0 297946 234 32631 2352709 20689 0 198 0 0 0
+
+
+Current time is 58018 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29116
+CPU Utilization is 
+cpu  297938 234 32630 2352709 20689 0 198 0 0 0
+cpu0 297938 234 32630 2352709 20689 0 198 0 0 0
+
+
+Current time is 958133 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29112
+CPU Utilization is 
+cpu  297929 234 32628 2352708 20689 0 198 0 0 0
+cpu0 297929 234 32628 2352708 20689 0 198 0 0 0
+
+
+Current time is 858073 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29108
+CPU Utilization is 
+cpu  297921 234 32627 2352708 20689 0 198 0 0 0
+cpu0 297921 234 32627 2352708 20689 0 198 0 0 0
+
+
+Current time is 759173 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29104
+CPU Utilization is 
+cpu  297914 234 32625 2352707 20689 0 198 0 0 0
+cpu0 297914 234 32625 2352707 20689 0 198 0 0 0
+
+
+Current time is 658145 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29100
+CPU Utilization is 
+cpu  297910 234 32625 2352701 20689 0 198 0 0 0
+cpu0 297910 234 32625 2352701 20689 0 198 0 0 0
+
+
+Current time is 558265 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29096
+CPU Utilization is 
+cpu  297903 234 32624 2352698 20689 0 198 0 0 0
+cpu0 297903 234 32624 2352698 20689 0 198 0 0 0
+
+
+Current time is 458425 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29092
+CPU Utilization is 
+cpu  297893 234 32624 2352698 20689 0 198 0 0 0
+cpu0 297893 234 32624 2352698 20689 0 198 0 0 0
+
+
+Current time is 358426 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29088
+CPU Utilization is 
+cpu  297884 234 32624 2352698 20689 0 198 0 0 0
+cpu0 297884 234 32624 2352698 20689 0 198 0 0 0
+
+
+Current time is 258115 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29084
+CPU Utilization is 
+cpu  297880 234 32623 2352694 20689 0 198 0 0 0
+cpu0 297880 234 32623 2352694 20689 0 198 0 0 0
+
+
+Current time is 158397 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29080
+CPU Utilization is 
+cpu  297873 234 32622 2352691 20689 0 198 0 0 0
+cpu0 297873 234 32622 2352691 20689 0 198 0 0 0
+
+
+Current time is 58363 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29076
+CPU Utilization is 
+cpu  297865 234 32622 2352689 20689 0 198 0 0 0
+cpu0 297865 234 32622 2352689 20689 0 198 0 0 0
+
+
+Current time is 958257 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29072
+CPU Utilization is 
+cpu  297858 234 32622 2352688 20689 0 198 0 0 0
+cpu0 297858 234 32622 2352688 20689 0 198 0 0 0
+
+
+Current time is 858162 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29068
+CPU Utilization is 
+cpu  297856 234 32620 2352682 20689 0 198 0 0 0
+cpu0 297856 234 32620 2352682 20689 0 198 0 0 0
+
+
+Current time is 758050 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29064
+CPU Utilization is 
+cpu  297855 234 32618 2352674 20689 0 198 0 0 0
+cpu0 297855 234 32618 2352674 20689 0 198 0 0 0
+
+
+Current time is 658026 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29060
+CPU Utilization is 
+cpu  297848 234 32618 2352673 20689 0 198 0 0 0
+cpu0 297848 234 32618 2352673 20689 0 198 0 0 0
+
+
+Current time is 559503 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29056
+CPU Utilization is 
+cpu  297842 234 32616 2352671 20689 0 198 0 0 0
+cpu0 297842 234 32616 2352671 20689 0 198 0 0 0
+
+
+Current time is 458982 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29052
+CPU Utilization is 
+cpu  297840 234 32614 2352664 20689 0 198 0 0 0
+cpu0 297840 234 32614 2352664 20689 0 198 0 0 0
+
+
+Current time is 358170 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29048
+CPU Utilization is 
+cpu  297840 234 32613 2352656 20689 0 198 0 0 0
+cpu0 297840 234 32613 2352656 20689 0 198 0 0 0
+
+
+Current time is 258192 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29044
+CPU Utilization is 
+cpu  297839 234 32612 2352647 20689 0 198 0 0 0
+cpu0 297839 234 32612 2352647 20689 0 198 0 0 0
+
+
+Current time is 158230 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29040
+CPU Utilization is 
+cpu  297838 234 32612 2352639 20689 0 198 0 0 0
+cpu0 297838 234 32612 2352639 20689 0 198 0 0 0
+
+
+Current time is 58252 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29036
+CPU Utilization is 
+cpu  297836 234 32611 2352633 20689 0 198 0 0 0
+cpu0 297836 234 32611 2352633 20689 0 198 0 0 0
+
+
+Current time is 958526 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29032
+CPU Utilization is 
+cpu  297836 234 32610 2352624 20689 0 198 0 0 0
+cpu0 297836 234 32610 2352624 20689 0 198 0 0 0
+
+
+Current time is 858171 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29028
+CPU Utilization is 
+cpu  297830 234 32609 2352620 20689 0 198 0 0 0
+cpu0 297830 234 32609 2352620 20689 0 198 0 0 0
+
+
+Current time is 758331 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29024
+CPU Utilization is 
+cpu  297821 234 32608 2352620 20689 0 198 0 0 0
+cpu0 297821 234 32608 2352620 20689 0 198 0 0 0
+
+
+Current time is 658555 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29020
+CPU Utilization is 
+cpu  297812 234 32608 2352620 20689 0 198 0 0 0
+cpu0 297812 234 32608 2352620 20689 0 198 0 0 0
+
+
+Current time is 558806 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29016
+CPU Utilization is 
+cpu  297804 234 32608 2352620 20689 0 198 0 0 0
+cpu0 297804 234 32608 2352620 20689 0 198 0 0 0
+
+
+Current time is 458105 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29012
+CPU Utilization is 
+cpu  297794 234 32607 2352620 20689 0 198 0 0 0
+cpu0 297794 234 32607 2352620 20689 0 198 0 0 0
+
+
+Current time is 358155 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29007
+CPU Utilization is 
+cpu  297784 234 32606 2352620 20689 0 198 0 0 0
+cpu0 297784 234 32606 2352620 20689 0 198 0 0 0
+
+
+Current time is 258082 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 29001
+CPU Utilization is 
+cpu  297777 234 32606 2352619 20689 0 198 0 0 0
+cpu0 297777 234 32606 2352619 20689 0 198 0 0 0
+
+
+Current time is 158336 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28997
+CPU Utilization is 
+cpu  297772 234 32605 2352614 20689 0 198 0 0 0
+cpu0 297772 234 32605 2352614 20689 0 198 0 0 0
+
+
+Current time is 58245 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28993
+CPU Utilization is 
+cpu  297766 234 32605 2352611 20689 0 198 0 0 0
+cpu0 297766 234 32605 2352611 20689 0 198 0 0 0
+
+
+Current time is 958087 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28989
+CPU Utilization is 
+cpu  297762 234 32604 2352606 20689 0 198 0 0 0
+cpu0 297762 234 32604 2352606 20689 0 198 0 0 0
+
+
+Current time is 858327 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28985
+CPU Utilization is 
+cpu  297757 234 32603 2352602 20689 0 198 0 0 0
+cpu0 297757 234 32603 2352602 20689 0 198 0 0 0
+
+
+Current time is 758438 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28981
+CPU Utilization is 
+cpu  297748 234 32603 2352601 20689 0 198 0 0 0
+cpu0 297748 234 32603 2352601 20689 0 198 0 0 0
+
+
+Current time is 658123 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28977
+CPU Utilization is 
+cpu  297743 234 32602 2352596 20689 0 198 0 0 0
+cpu0 297743 234 32602 2352596 20689 0 198 0 0 0
+
+
+Current time is 558079 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28973
+CPU Utilization is 
+cpu  297740 234 32602 2352592 20689 0 198 0 0 0
+cpu0 297740 234 32602 2352592 20689 0 198 0 0 0
+
+
+Current time is 458297 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28969
+CPU Utilization is 
+cpu  297733 234 32600 2352590 20689 0 198 0 0 0
+cpu0 297733 234 32600 2352590 20689 0 198 0 0 0
+
+
+Current time is 358646 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28965
+CPU Utilization is 
+cpu  297729 234 32600 2352585 20689 0 198 0 0 0
+cpu0 297729 234 32600 2352585 20689 0 198 0 0 0
+
+
+Current time is 258112 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28961
+CPU Utilization is 
+cpu  297723 234 32599 2352581 20689 0 198 0 0 0
+cpu0 297723 234 32599 2352581 20689 0 198 0 0 0
+
+
+Current time is 158872 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28957
+CPU Utilization is 
+cpu  297718 234 32599 2352577 20689 0 198 0 0 0
+cpu0 297718 234 32599 2352577 20689 0 198 0 0 0
+
+
+Current time is 58346 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28953
+CPU Utilization is 
+cpu  297714 234 32597 2352572 20689 0 198 0 0 0
+cpu0 297714 234 32597 2352572 20689 0 198 0 0 0
+
+
+Current time is 958341 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28949
+CPU Utilization is 
+cpu  297706 234 32596 2352571 20689 0 198 0 0 0
+cpu0 297706 234 32596 2352571 20689 0 198 0 0 0
+
+
+Current time is 858674 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28945
+CPU Utilization is 
+cpu  297700 234 32596 2352568 20689 0 198 0 0 0
+cpu0 297700 234 32596 2352568 20689 0 198 0 0 0
+
+
+Current time is 758601 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28941
+CPU Utilization is 
+cpu  297695 234 32595 2352565 20689 0 198 0 0 0
+cpu0 297695 234 32595 2352565 20689 0 198 0 0 0
+
+
+Current time is 658278 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28937
+CPU Utilization is 
+cpu  297689 234 32594 2352564 20689 0 198 0 0 0
+cpu0 297689 234 32594 2352564 20689 0 198 0 0 0
+
+
+Current time is 558850 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28933
+CPU Utilization is 
+cpu  297684 234 32593 2352558 20689 0 198 0 0 0
+cpu0 297684 234 32593 2352558 20689 0 198 0 0 0
+
+
+Current time is 458136 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28929
+CPU Utilization is 
+cpu  297678 234 32593 2352555 20689 0 198 0 0 0
+cpu0 297678 234 32593 2352555 20689 0 198 0 0 0
+
+
+Current time is 358365 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28925
+CPU Utilization is 
+cpu  297674 234 32592 2352550 20689 0 198 0 0 0
+cpu0 297674 234 32592 2352550 20689 0 198 0 0 0
+
+
+Current time is 258133 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28921
+CPU Utilization is 
+cpu  297669 234 32592 2352546 20689 0 198 0 0 0
+cpu0 297669 234 32592 2352546 20689 0 198 0 0 0
+
+
+Current time is 158714 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28917
+CPU Utilization is 
+cpu  297662 234 32591 2352543 20689 0 198 0 0 0
+cpu0 297662 234 32591 2352543 20689 0 198 0 0 0
+
+
+Current time is 58080 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28913
+CPU Utilization is 
+cpu  297654 234 32590 2352542 20689 0 198 0 0 0
+cpu0 297654 234 32590 2352542 20689 0 198 0 0 0
+
+
+Current time is 958128 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28909
+CPU Utilization is 
+cpu  297647 234 32589 2352541 20689 0 198 0 0 0
+cpu0 297647 234 32589 2352541 20689 0 198 0 0 0
+
+
+Current time is 858197 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28905
+CPU Utilization is 
+cpu  297645 234 32588 2352541 20688 0 198 0 0 0
+cpu0 297645 234 32588 2352541 20688 0 198 0 0 0
+
+
+Current time is 758411 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28901
+CPU Utilization is 
+cpu  297636 234 32587 2352540 20685 0 198 0 0 0
+cpu0 297636 234 32587 2352540 20685 0 198 0 0 0
+
+
+Current time is 658090 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28897
+CPU Utilization is 
+cpu  297632 234 32586 2352534 20685 0 198 0 0 0
+cpu0 297632 234 32586 2352534 20685 0 198 0 0 0
+
+
+Current time is 558754 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28893
+CPU Utilization is 
+cpu  297627 234 32586 2352530 20685 0 198 0 0 0
+cpu0 297627 234 32586 2352530 20685 0 198 0 0 0
+
+
+Current time is 458422 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28889
+CPU Utilization is 
+cpu  297624 234 32585 2352523 20685 0 198 0 0 0
+cpu0 297624 234 32585 2352523 20685 0 198 0 0 0
+
+
+Current time is 358300 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28885
+CPU Utilization is 
+cpu  297614 234 32584 2352523 20685 0 198 0 0 0
+cpu0 297614 234 32584 2352523 20685 0 198 0 0 0
+
+
+Current time is 258482 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28881
+CPU Utilization is 
+cpu  297606 234 32584 2352522 20685 0 198 0 0 0
+cpu0 297606 234 32584 2352522 20685 0 198 0 0 0
+
+
+Current time is 158200 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28877
+CPU Utilization is 
+cpu  297602 234 32584 2352516 20685 0 198 0 0 0
+cpu0 297602 234 32584 2352516 20685 0 198 0 0 0
+
+
+Current time is 58285 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28873
+CPU Utilization is 
+cpu  297594 234 32583 2352516 20685 0 198 0 0 0
+cpu0 297594 234 32583 2352516 20685 0 198 0 0 0
+
+
+Current time is 958286 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28869
+CPU Utilization is 
+cpu  297584 234 32582 2352516 20685 0 198 0 0 0
+cpu0 297584 234 32582 2352516 20685 0 198 0 0 0
+
+
+Current time is 858092 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28865
+CPU Utilization is 
+cpu  297575 234 32582 2352516 20685 0 198 0 0 0
+cpu0 297575 234 32582 2352516 20685 0 198 0 0 0
+
+
+Current time is 758134 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28861
+CPU Utilization is 
+cpu  297566 234 32580 2352516 20685 0 198 0 0 0
+cpu0 297566 234 32580 2352516 20685 0 198 0 0 0
+
+
+Current time is 658455 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28857
+CPU Utilization is 
+cpu  297557 234 32580 2352516 20685 0 198 0 0 0
+cpu0 297557 234 32580 2352516 20685 0 198 0 0 0
+
+
+Current time is 558086 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28853
+CPU Utilization is 
+cpu  297551 234 32579 2352513 20685 0 198 0 0 0
+cpu0 297551 234 32579 2352513 20685 0 198 0 0 0
+
+
+Current time is 458199 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28849
+CPU Utilization is 
+cpu  297547 234 32578 2352508 20685 0 198 0 0 0
+cpu0 297547 234 32578 2352508 20685 0 198 0 0 0
+
+
+Current time is 358931 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28845
+CPU Utilization is 
+cpu  297544 234 32578 2352503 20685 0 198 0 0 0
+cpu0 297544 234 32578 2352503 20685 0 198 0 0 0
+
+
+Current time is 258250 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28841
+CPU Utilization is 
+cpu  297539 234 32577 2352498 20685 0 198 0 0 0
+cpu0 297539 234 32577 2352498 20685 0 198 0 0 0
+
+
+Current time is 158080 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28837
+CPU Utilization is 
+cpu  297535 234 32576 2352492 20685 0 198 0 0 0
+cpu0 297535 234 32576 2352492 20685 0 198 0 0 0
+
+
+Current time is 58482 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28833
+CPU Utilization is 
+cpu  297530 234 32576 2352487 20685 0 198 0 0 0
+cpu0 297530 234 32576 2352487 20685 0 198 0 0 0
+
+
+Current time is 958093 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28829
+CPU Utilization is 
+cpu  297527 234 32576 2352482 20685 0 198 0 0 0
+cpu0 297527 234 32576 2352482 20685 0 198 0 0 0
+
+
+Current time is 858082 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28825
+CPU Utilization is 
+cpu  297522 234 32576 2352477 20685 0 198 0 0 0
+cpu0 297522 234 32576 2352477 20685 0 198 0 0 0
+
+
+Current time is 758100 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28821
+CPU Utilization is 
+cpu  297518 234 32576 2352471 20685 0 198 0 0 0
+cpu0 297518 234 32576 2352471 20685 0 198 0 0 0
+
+
+Current time is 658111 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28817
+CPU Utilization is 
+cpu  297514 234 32575 2352467 20685 0 198 0 0 0
+cpu0 297514 234 32575 2352467 20685 0 198 0 0 0
+
+
+Current time is 558120 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28813
+CPU Utilization is 
+cpu  297510 234 32574 2352461 20685 0 198 0 0 0
+cpu0 297510 234 32574 2352461 20685 0 198 0 0 0
+
+
+Current time is 458133 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28809
+CPU Utilization is 
+cpu  297506 234 32574 2352456 20685 0 198 0 0 0
+cpu0 297506 234 32574 2352456 20685 0 198 0 0 0
+
+
+Current time is 358371 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28805
+CPU Utilization is 
+cpu  297501 234 32573 2352452 20685 0 198 0 0 0
+cpu0 297501 234 32573 2352452 20685 0 198 0 0 0
+
+
+Current time is 258787 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28801
+CPU Utilization is 
+cpu  297496 234 32572 2352447 20685 0 198 0 0 0
+cpu0 297496 234 32572 2352447 20685 0 198 0 0 0
+
+
+Current time is 158157 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28797
+CPU Utilization is 
+cpu  297492 234 32572 2352442 20685 0 198 0 0 0
+cpu0 297492 234 32572 2352442 20685 0 198 0 0 0
+
+
+Current time is 58065 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28793
+CPU Utilization is 
+cpu  297489 234 32571 2352436 20685 0 198 0 0 0
+cpu0 297489 234 32571 2352436 20685 0 198 0 0 0
+
+
+Current time is 958582 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28789
+CPU Utilization is 
+cpu  297484 234 32571 2352431 20685 0 198 0 0 0
+cpu0 297484 234 32571 2352431 20685 0 198 0 0 0
+
+
+Current time is 858638 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28785
+CPU Utilization is 
+cpu  297478 234 32570 2352428 20685 0 198 0 0 0
+cpu0 297478 234 32570 2352428 20685 0 198 0 0 0
+
+
+Current time is 758396 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28781
+CPU Utilization is 
+cpu  297474 234 32570 2352423 20685 0 198 0 0 0
+cpu0 297474 234 32570 2352423 20685 0 198 0 0 0
+
+
+Current time is 658590 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28777
+CPU Utilization is 
+cpu  297470 234 32570 2352418 20685 0 198 0 0 0
+cpu0 297470 234 32570 2352418 20685 0 198 0 0 0
+
+
+Current time is 558820 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28773
+CPU Utilization is 
+cpu  297467 234 32568 2352412 20685 0 198 0 0 0
+cpu0 297467 234 32568 2352412 20685 0 198 0 0 0
+
+
+Current time is 458158 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28769
+CPU Utilization is 
+cpu  297463 234 32568 2352406 20685 0 198 0 0 0
+cpu0 297463 234 32568 2352406 20685 0 198 0 0 0
+
+
+Current time is 358662 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28765
+CPU Utilization is 
+cpu  297460 234 32566 2352401 20685 0 198 0 0 0
+cpu0 297460 234 32566 2352401 20685 0 198 0 0 0
+
+
+Current time is 259020 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28761
+CPU Utilization is 
+cpu  297455 234 32566 2352396 20685 0 198 0 0 0
+cpu0 297455 234 32566 2352396 20685 0 198 0 0 0
+
+
+Current time is 158328 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28757
+CPU Utilization is 
+cpu  297450 234 32565 2352392 20685 0 198 0 0 0
+cpu0 297450 234 32565 2352392 20685 0 198 0 0 0
+
+
+Current time is 58769 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28753
+CPU Utilization is 
+cpu  297446 234 32564 2352386 20685 0 198 0 0 0
+cpu0 297446 234 32564 2352386 20685 0 198 0 0 0
+
+
+Current time is 958401 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28749
+CPU Utilization is 
+cpu  297441 234 32564 2352382 20685 0 198 0 0 0
+cpu0 297441 234 32564 2352382 20685 0 198 0 0 0
+
+
+Current time is 859029 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28745
+CPU Utilization is 
+cpu  297436 234 32564 2352376 20685 0 198 0 0 0
+cpu0 297436 234 32564 2352376 20685 0 198 0 0 0
+
+
+Current time is 758507 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28741
+CPU Utilization is 
+cpu  297432 234 32563 2352371 20685 0 198 0 0 0
+cpu0 297432 234 32563 2352371 20685 0 198 0 0 0
+
+
+Current time is 659016 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28737
+CPU Utilization is 
+cpu  297428 234 32562 2352366 20685 0 198 0 0 0
+cpu0 297428 234 32562 2352366 20685 0 198 0 0 0
+
+
+Current time is 559063 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28733
+CPU Utilization is 
+cpu  297424 234 32561 2352361 20685 0 198 0 0 0
+cpu0 297424 234 32561 2352361 20685 0 198 0 0 0
+
+
+Current time is 458707 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28729
+CPU Utilization is 
+cpu  297420 234 32561 2352356 20685 0 198 0 0 0
+cpu0 297420 234 32561 2352356 20685 0 198 0 0 0
+
+
+Current time is 358092 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28725
+CPU Utilization is 
+cpu  297416 234 32560 2352350 20685 0 198 0 0 0
+cpu0 297416 234 32560 2352350 20685 0 198 0 0 0
+
+
+Current time is 258119 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28721
+CPU Utilization is 
+cpu  297411 234 32560 2352346 20685 0 198 0 0 0
+cpu0 297411 234 32560 2352346 20685 0 198 0 0 0
+
+
+Current time is 158100 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28717
+CPU Utilization is 
+cpu  297408 234 32560 2352340 20685 0 198 0 0 0
+cpu0 297408 234 32560 2352340 20685 0 198 0 0 0
+
+
+Current time is 58756 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28713
+CPU Utilization is 
+cpu  297402 234 32560 2352336 20685 0 198 0 0 0
+cpu0 297402 234 32560 2352336 20685 0 198 0 0 0
+
+
+Current time is 958194 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28709
+CPU Utilization is 
+cpu  297397 234 32559 2352331 20685 0 198 0 0 0
+cpu0 297397 234 32559 2352331 20685 0 198 0 0 0
+
+
+Current time is 859297 microseconds
+child thread2 gets created with pid 28701	
+ posix thread id is 140652376905472	
+ linux thread id is 28705
+CPU Utilization is 
+cpu  297388 234 32558 2352331 20685 0 198 0 0 0
+cpu0 297388 234 32558 2352331 20685 0 198 0 0 0
+
+
+Current time is 757970 microseconds
+
+child thread1 logged in file with PID 28701	
+ posix thread id is 140652376905472	
+ linux thread is 28702
+Letters whose count is less than 100 are
+Character j	 count is 26
+Character q	 count is 4
+Character x	 count is 84
+Character z	 count is 12
+Thread1 exiting
+
+Current time is 757640 microseconds
+
+child thread2 gets created with pid 28701	
+ posix thread id is 140652368512768	
+ linux thread id is 28703
+
+Current time is 756451 microseconds
+The main thread with pid is 28701

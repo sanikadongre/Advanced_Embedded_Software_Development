@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 		FILE *outputfile = fopen(argv[1], "a");
 		if (outputfile != NULL)
 		{
-			fprintf(outputfile, "\nmessage is written to pipe1\t\r and the method used is IPC \t\rparent pid number is  %d\n", parentpipepid);
+			fprintf(outputfile, "\nmessage is written to pipe1\t\r and the method used is IPC pipes \t\rparent pid number is  %d\n", parentpipepid);
 			
 		}
 		for (i=0;i<10;i++)
@@ -145,7 +145,7 @@ int main(int argc, char *argv[])
 		outputfile = fopen(argv[1], "a");
 		if (outputfile != NULL)
 		{
-			fprintf(outputfile, "\nmessage is read from pipe 2\t\r and the method used is IPC \t\rparent pid number is  %d\n", parentpipepid);
+			fprintf(outputfile, "\nmessage is read from pipe 2\t\r and the method used is IPC pipes \t\rparent pid number is  %d\n", parentpipepid);
 		}
 		for(i=0; i<10;i++)
 		{
@@ -165,7 +165,7 @@ int main(int argc, char *argv[])
 		FILE *outputfile = fopen(argv[1], "a");
 		if (outputfile != NULL)
 		{
-			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC \t\rchild pid number is  %d\n",childpid);
+			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\rchild pid number is  %d\n",childpid);
 		}
 		for(i=0;i<10;i++)
 		{
@@ -177,7 +177,7 @@ int main(int argc, char *argv[])
 		outputfile = fopen(argv[1], "a");
 		if (outputfile != NULL)
 		{
-			fprintf(outputfile, "\nmessage is written to pipe 2\t\r and the method used is IPC \t\rparent pid number is  %d\n", childpid);
+			fprintf(outputfile, "\nmessage is written to pipe 2\t\r and the method used is IPC pipes \t\rparent pid number is  %d\n", childpid);
 		}
 		for(i=0;i<10;i++)
 		{

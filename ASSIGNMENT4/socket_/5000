@@ -1,0 +1,8 @@
+
+ data is written to pipe1	 and the method used is IPC 	parent pid number is  32313
+
+The operation_led is write
+ currtimeval is 1551414534 secon_ledds and 967840 microsecon_ledds value
+ The string sent is Message from Client	
+, the string length is 19	
+ and the led status is 1

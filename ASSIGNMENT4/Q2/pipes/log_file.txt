@@ -1,0 +1,288 @@
+
+message is written to pipe1	 and the method used is IPC pipes 	 pid = 6991
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144435 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144438 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144441 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144443 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144445 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144447 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144449 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144451 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144453 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+The operation is write
+ curtime is 144455 microseconds value
+ The string sent is sky	
+, the string length is 3	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144684 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144688 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144689 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144690 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144691 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144693 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144694 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144695 microseconds
+ the string sent is snow	
+ and its length is 4 	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144696 microseconds
+ the string sent is snow	
+ and its length is 4 	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+ The operation is read
+ curtime  is 144698 microseconds
+ the string sent is sky	
+ and its length is 3 	
+ and the led status is 1
+
+message is written to pipe 2 by the pid 0	 and the method used is IPC pipes 	
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144737 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144739 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144740 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144742 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144743 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144745 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144746 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144747 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 3
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144749 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6992
+The operation is write
+ curtime is 144750 microseconds value
+ The string sent is sky	
+, the string length is 3	
+ and the led status is 4
+
+message is read from pipe 2	 and the method used is IPC pipes 	pid = 6991
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145127 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 2
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145132 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145134 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 1
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145136 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145138 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145140 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145142 microseconds
+ the string sent is purple	
+ and its length is 6 	
+ and the led status is 0
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145144 microseconds
+ the string sent is snow	
+ and its length is 4 	
+ and the led status is 3
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145146 microseconds
+ the string sent is snow	
+ and its length is 4 	
+ and the led status is 4
+
+message is read from pipe 1	 and the method used is IPC pipes 	 pid = 6991
+ The operation is read
+ curtime  is 145148 microseconds
+ the string sent is sky	
+ and its length is 3 	
+ and the led status is 4

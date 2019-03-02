@@ -26,6 +26,7 @@ struct data
 char *stringarray[5] = {"hey", "sky", "snow", "purple", "orchid"};
 pid_t mainpid;
 pid_t childpid;
+pid_t temp;
 pthread_mutex_t pmutex;
 uint32_t getrand;
 int i=0;
@@ -81,7 +82,8 @@ int main(int argc, char *argv[])
 		FILE *outputfile = fopen(argv[1], "a");
 		if (outputfile != NULL)
 		{
-			fprintf(outputfile, "\nmessage is written to pipe1\t\r and the method used is IPC pipes \t\rparent pid number is  %d\n", parentpipepid);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is written to pipe1\t\r and the method used is IPC pipes \t\r pid = %d\n", temp);
 			
 		}
 		for (i=0;i<10;i++)
@@ -139,18 +141,23 @@ int main(int argc, char *argv[])
 	 		}
 			send_data(pipe1);
 			clock_gettime(CLOCK_REALTIME,&curtime);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\r pid = %d",temp);
 			fprintf(outputfile,"\nThe operation is write\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n", curtime.tv_nsec/(1000),object.str, object.len, object.led );
 		}
 		fclose(outputfile);
 		outputfile = fopen(argv[1], "a");
 		if (outputfile != NULL)
 		{
-			fprintf(outputfile, "\nmessage is read from pipe 2\t\r and the method used is IPC pipes \t\rparent pid number is  %d\n", parentpipepid);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is read from pipe 2\t\r and the method used is IPC pipes \t\rpid = %d\n",temp);
 		}
 		for(i=0; i<10;i++)
 		{
 			receive_data(pipe2);
 			clock_gettime(CLOCK_REALTIME,&curtime);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\r pid = %d",temp);
 			fprintf(outputfile,"\n The operation is read\n curtime  is %ld microseconds\n the string sent is %s\t\n and its length is %d \t\n and the led status is %d\n", curtime.tv_nsec/(1000),ptr->str, ptr->len, ptr->led);
 
 		}
@@ -165,12 +172,15 @@ int main(int argc, char *argv[])
 		FILE *outputfile = fopen(argv[1], "a");
 		if (outputfile != NULL)
 		{
-			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\r pid number is  %d\n",childpid);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\r pid = %d\n",temp);
 		}
 		for(i=0;i<10;i++)
 		{
 			receive_data(pipe1);
 			clock_gettime(CLOCK_REALTIME,&curtime);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\r pid = %d",temp);
 			fprintf(outputfile,"\n The operation is read\n curtime  is %ld microseconds\n the string sent is %s\t\n and its length is %d \t\n and the led status is %d\n",curtime.tv_nsec/(1000),ptr->str, ptr->len, ptr->led);
 		}
 		fclose(outputfile);
@@ -235,6 +245,8 @@ int main(int argc, char *argv[])
 	 		}
 			send_data(pipe2);
 			clock_gettime(CLOCK_REALTIME,&curtime);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\r pid = %d",temp);
 			fprintf(outputfile,"\nThe operation is write\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n",curtime.tv_nsec/(1000),object.str, object.len, object.led );
 		}
 		fclose(outputfile);

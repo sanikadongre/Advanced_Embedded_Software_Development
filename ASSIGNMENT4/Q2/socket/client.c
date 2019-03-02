@@ -30,6 +30,7 @@ struct data
 struct timespec currtime;
 char *stringarray[5] = {"hey", "sky", "snow", "purple", "orchid"};
 pid_t mainpid;
+pid_t temp;
 pid_t childpid;
 pthread_mutex_t pmutex;
 uint32_t getrand;
@@ -88,7 +89,8 @@ int main(int argc, char* argv[])
 	  {
 	    	perror("entire data is not being sent yet\n");
 	  }
-	  printf("Message sent from Client is \n string is %s\n string length is %d\n USR LED is %d\n\n",
+	  temp=getpid();
+	  printf("PID=%d\tMessage sent from Client is \n string is %s\n string length is %d\n USR LED is %d\n\n",temp,
 		                   object.str, object.len, object.led); //data sent*/
 	  read(client_socket, readdata, 4); //reading data from server
 	  printf("Message received from Server: %s\n",readdata);

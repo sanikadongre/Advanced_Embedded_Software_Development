@@ -26,15 +26,13 @@ struct data
 	int led;
 }object;
 
+pid_t temp;
 char *stringarray[5] = {"hey", "sky", "snow", "purple", "orchid"};
 pthread_mutex_t pmutex;
 struct timespec curtime;
 ssize_t mq_error_cond;
 uint32_t randno;
-int send_data;
-mqd_t qid1,qid2;
-struct data obj_recv;
-struct mq_attr attrqueue;
+int send_data;struct data obj_recv;
 FILE* outputfile=NULL;
 char* fname;
 int i=0;
@@ -59,7 +57,8 @@ void sendmsg()
 	if (outputfile != NULL)
 	{
 		clock_gettime(CLOCK_REALTIME,&curtime);
-		fprintf(outputfile,"\nThe operation is send\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n", curtime.tv_nsec/(1000),object.str, object.len, object.led);
+		temp=getpid();
+		fprintf(outputfile,"\nPID=%d\tThe operation is send\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n",temp, curtime.tv_nsec/(1000),object.str, object.len, object.led);
 	}
 	fclose(outputfile);
 }
@@ -70,7 +69,8 @@ void getmsg()
 	if (outputfile != NULL)
 	{
 		clock_gettime(CLOCK_REALTIME,&curtime);
-		fprintf(outputfile,"\nThe operation is receive\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n", curtime.tv_nsec/(1000),object.str, object.len, object.led);	
+		temp=getpid();
+		fprintf(outputfile,"\nPID=%d\tThe operation is receive\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n",temp, curtime.tv_nsec/(1000),object.str, object.len, object.led);	
 	}
 	fclose(outputfile);
 } 
@@ -216,8 +216,9 @@ int main(int argc, char *argv[])
 	  	{
 	    		i+=obtbytes;	
 	  	}
-	 	 ptr= (struct data*)readdata;
-	  	printf("Message received from Client is \n string is %s\n string length is %d\n USR LED is %d\n",
+		temp=getpid();
+	 	ptr= (struct data*)readdata;
+	  	printf("PID = %d\tMessage received from Client is \n string is %s\n string length is %d\n USR LED is %d\n",temp,
 		                                ptr->str, ptr->len, ptr->led);
 		pthread_mutex_lock(&pmutex);
 		getmsg();

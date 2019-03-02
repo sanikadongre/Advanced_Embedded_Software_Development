@@ -1,0 +1,293 @@
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228365 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228390 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228399 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228408 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228416 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228425 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228433 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228442 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228451 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+ The operation is read
+ curtime  is 228459 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228502 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228513 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228522 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228531 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228540 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228549 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228558 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228567 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 3
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228576 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 4
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6557
+The operation is write
+ curtime is 228584 microseconds value
+ The string sent is sky	
+, the string length is 3	
+ and the led status is 4
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	parent pid number is  6556
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 4
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 1
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is purple	
+, the string length is 6	
+ and the led status is 2
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 0
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 0
+
+message is written to shared memory1	 and the method used is IPC shared memorys
+	pid = 6556
+The operation is write
+ curtime is 229099 microseconds value
+ The string sent is sky	
+, the string length is 3	
+ and the led status is 1
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229423 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229433 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229441 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229448 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229456 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229463 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229471 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229478 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229487 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0
+
+message is written to shared memory 2	 and the method used is IPC shared memorys 	pid =  6556
+ The operation is read
+ curtime  is 229494 microseconds
+ the string sent is (null)	
+ and its length is 0 	
+ and the led status is 0

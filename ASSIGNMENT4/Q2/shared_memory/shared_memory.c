@@ -6,7 +6,9 @@
 #include <string.h>
 #include <sys/types.h>
 #include <time.h>
-
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#define MEMORY_SIZE 200
 typedef enum
 {
 	off_led=0,
@@ -26,45 +28,42 @@ struct data
 char *stringarray[5] = {"hey", "sky", "snow", "purple", "orchid"};
 pid_t mainpid;
 pid_t childpid;
+pid_t temp;
 pthread_mutex_t pmutex;
 uint32_t getrand;
 int i=0;
 void sendfunc();
 struct timespec curtime;
 FILE* outputfile=NULL;
-int pipe1[2];	
-int pipe2[2];
-char readdata[sizeof(struct data)];
+key_t key;
+int32_t mem[2]={0,0};
+struct data readdata;
 
-void send_data(int pipeno[])
+void send_data(int mem_no)
 {
-	write(pipeno[1], &object, sizeof(struct data));
+	uint8_t* mem_ptr=shmat(mem[mem_no],(void*)0,0);
+	memcpy(mem_ptr,&object, sizeof(struct data));
+	shmdt(mem_ptr);
 }
 
-void receive_data(int pipeno[])
+void receive_data(int mem_no)
 {
-	read(pipeno[0], readdata, sizeof(readdata));
+	uint8_t* mem_ptr=shmat(mem[mem_no],(void*)0,0);	
+	memcpy(mem_ptr,&readdata, sizeof(struct data));
+	shmdt(mem_ptr);
 }
 
 int main(int argc, char *argv[])
 {		
 	object.led = bright_led;
-	struct data *ptr = (struct data *)readdata;
+	struct data *ptr = &readdata;
 	if(argc<2)
 	{
 		printf("\n<usage> ./name_file <outputlogfile>\n");
 		exit(1);
 	}
-	if(pipe(pipe1))
-	{
-		perror("pipe creation_led failed\n");
-		exit(1);
-	}
-	if(pipe(pipe2))
-	{
-		perror("pipe creation_led failed\n");
-		exit(1);
-	}
+	mem[0]=shmget(1,MEMORY_SIZE,0666|IPC_CREAT);	
+	mem[1]=shmget(2,MEMORY_SIZE,0666|IPC_CREAT);
 	mainpid = fork();
 	if(mainpid==-1)
 	{
@@ -73,16 +72,14 @@ int main(int argc, char *argv[])
 	}
 	else if(mainpid > 0)		 
 	{
+		pthread_mutex_lock(&pmutex);
 		pid_t parentpipepid = getpid();
 		childpid = mainpid;
-		close(pipe1[0]);
-		close(pipe2[1]);
-		pthread_mutex_lock(&pmutex);
 		FILE *outputfile = fopen(argv[1], "a");
-		if (outputfile != NULL)
+		if(outputfile!=NULL)
 		{
-			fprintf(outputfile, "\nmessage is written to pipe1\t\r and the method used is IPC pipes \t\rparent pid number is  %d\n", parentpipepid);
-			
+			clock_gettime(CLOCK_REALTIME,&curtime);
+			fprintf(outputfile, "\nmessage is written to shared memory1\t\r and the method used is IPC shared memorys\n\t\rparent pid number is  %d\n", parentpipepid);
 		}
 		for (i=0;i<10;i++)
 		{
@@ -137,20 +134,19 @@ int main(int argc, char *argv[])
 	  		{				
 				object.led = off_led;
 	 		}
-			send_data(pipe1);
-			clock_gettime(CLOCK_REALTIME,&curtime);
+			send_data(0);
+			temp = getpid();
+			fprintf(outputfile, "\nmessage is written to shared memory1\t\r and the method used is IPC shared memorys\n\t\rpid = %d",temp);
 			fprintf(outputfile,"\nThe operation is write\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n", curtime.tv_nsec/(1000),object.str, object.len, object.led );
 		}
 		fclose(outputfile);
 		outputfile = fopen(argv[1], "a");
-		if (outputfile != NULL)
-		{
-			fprintf(outputfile, "\nmessage is read from pipe 2\t\r and the method used is IPC pipes \t\rparent pid number is  %d\n", parentpipepid);
-		}
 		for(i=0; i<10;i++)
 		{
-			receive_data(pipe2);
+			receive_data(1);
 			clock_gettime(CLOCK_REALTIME,&curtime);
+			temp = getpid();			
+			fprintf(outputfile, "\nmessage is written to shared memory 2\t\r and the method used is IPC shared memorys \t\rpid =  %d", temp);
 			fprintf(outputfile,"\n The operation is read\n curtime  is %ld microseconds\n the string sent is %s\t\n and its length is %d \t\n and the led status is %d\n", curtime.tv_nsec/(1000),ptr->str, ptr->len, ptr->led);
 
 		}
@@ -159,26 +155,18 @@ int main(int argc, char *argv[])
 	}
 	else if(mainpid == 0)	
 	{
-		close(pipe1[1]);
-		close(pipe2[0]);
 		pthread_mutex_lock(&pmutex);
 		FILE *outputfile = fopen(argv[1], "a");
-		if (outputfile != NULL)
-		{
-			fprintf(outputfile, "\nmessage is read from pipe 1\t\r and the method used is IPC pipes \t\r pid number is  %d\n",childpid);
-		}
 		for(i=0;i<10;i++)
 		{
-			receive_data(pipe1);
+			receive_data(0);
 			clock_gettime(CLOCK_REALTIME,&curtime);
+			temp = getpid();
+			fprintf(outputfile, "\nmessage is written to shared memory 2\t\r and the method used is IPC shared memorys \t\rpid =  %d", temp);
 			fprintf(outputfile,"\n The operation is read\n curtime  is %ld microseconds\n the string sent is %s\t\n and its length is %d \t\n and the led status is %d\n",curtime.tv_nsec/(1000),ptr->str, ptr->len, ptr->led);
-		}
+		}	
 		fclose(outputfile);
 		outputfile = fopen(argv[1], "a");
-		if (outputfile != NULL)
-		{
-			fprintf(outputfile, "\nmessage is written to pipe 2 by the pid %d\t\r and the method used is IPC pipes \t\n", childpid);
-		}
 		for(i=0;i<10;i++)
 		{
 			getrand = rand()%(10) ;
@@ -233,8 +221,10 @@ int main(int argc, char *argv[])
 	  		{
 				object.led = dim_led;
 	 		}
-			send_data(pipe2);
+			send_data(1);
 			clock_gettime(CLOCK_REALTIME,&curtime);
+			temp=getpid();
+			fprintf(outputfile, "\nmessage is written to shared memory 2\t\r and the method used is IPC shared memorys \t\rpid =  %d", temp);
 			fprintf(outputfile,"\nThe operation is write\n curtime is %ld microseconds value\n The string sent is %s\t\n, the string length is %d\t\n and the led status is %d\n",curtime.tv_nsec/(1000),object.str, object.len, object.led );
 		}
 		fclose(outputfile);

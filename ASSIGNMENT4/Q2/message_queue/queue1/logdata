@@ -180,3 +180,127 @@ The operation is read
  The string sent is orchid	
 , the string length is 6	
  and the led status is 2
+
+	the method used is IPC queue message is written to queue2	parent pid number is  7993
+
+PID Number = 7993
+
+The operation is write
+ currtime is 155253 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 0
+
+The operation is write
+ currtime is 155616 microseconds value
+ The string sent is snow	
+, the string length is 4	
+ and the led status is 0
+
+The operation is write
+ currtime is 158344 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 1
+
+The operation is write
+ currtime is 161324 microseconds value
+ The string sent is hey	
+, the string length is 3	
+ and the led status is 1
+
+The operation is write
+ currtime is 163284 microseconds value
+ The string sent is hey	
+, the string length is 3	
+ and the led status is 2
+
+The operation is write
+ currtime is 165995 microseconds value
+ The string sent is hey	
+, the string length is 3	
+ and the led status is 4
+
+The operation is write
+ currtime is 168240 microseconds value
+ The string sent is hey	
+, the string length is 3	
+ and the led status is 1
+
+The operation is write
+ currtime is 169191 microseconds value
+ The string sent is sky	
+, the string length is 3	
+ and the led status is 1
+
+The operation is write
+ currtime is 169806 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 1
+
+The operation is write
+ currtime is 170194 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170357 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170367 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170374 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170382 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170389 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170396 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170403 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170411 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170418 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0
+
+The operation is read
+ currtime is 170425 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 0

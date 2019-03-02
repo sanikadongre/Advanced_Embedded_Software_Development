@@ -1,0 +1,152 @@
+
+message is written to queue1	 and the method used is IPC queue 	parent pid number is 14892
+
+pid number is 14892
+
+The operation is read
+ currtime is 95326 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 95878 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 96314 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 97642 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 97661 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 97909 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 98007 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+message is written to queue1	 and the method used is IPC queue 	parent pid number is 14905
+
+pid number is 14905
+
+The operation is read
+ currtime is 541462 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541473 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541482 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541492 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541501 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541510 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541518 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541527 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 541537 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is read
+ currtime is 408292 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 0
+
+The operation is write
+ currtime is 408892 microseconds value
+ The string sent is 	
+, the string length is 0	
+ and the led status is 2
+
+The operation is write
+ currtime is 409059 microseconds value
+ The string sent is sky	
+, the string length is 3	
+ and the led status is 1
+
+The operation is write
+ currtime is 409561 microseconds value
+ The string sent is hey	
+, the string length is 3	
+ and the led status is 1
+
+The operation is write
+ currtime is 410261 microseconds value
+ The string sent is hey	
+, the string length is 3	
+ and the led status is 4
+
+The operation is write
+ currtime is 410589 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 1
+
+The operation is write
+ currtime is 410793 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 2
+
+The operation is write
+ currtime is 410884 microseconds value
+ The string sent is orchid	
+, the string length is 6	
+ and the led status is 1

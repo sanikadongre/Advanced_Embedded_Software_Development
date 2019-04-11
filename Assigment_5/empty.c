@@ -30,6 +30,7 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 /*
+* References: Examples from TIVA BOARD (UART,LED TOGGLE) and message queue: https://www.freertos.org/a00018.html and I2c: https://www.digikey.com/eewiki/display/microcontroller/I2C+Communication+with+the+TI+Tiva+TM4C123GXL
  *  ======== empty.c ========
  */
 /* Board Header file */
